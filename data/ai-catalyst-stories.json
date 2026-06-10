@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-06-10T05:53:13.329314Z",
+  "generated_at": "2026-06-10T08:22:57.561376Z",
   "source_generated_at": "2026-06-10T05:52:03.449165Z",
   "input_kind": "stories-merged",
   "domain": "ai_catalyst",
   "display_name": "AI产业催化",
   "total_input_stories": 815,
-  "total_catalyst_stories": 149,
+  "total_catalyst_stories": 146,
+  "total_raw_catalyst_stories": 149,
+  "dedupe": {
+    "strategy": "canonical_url_or_exact_normalized_title_v1",
+    "raw_records": 149,
+    "deduped_records": 146,
+    "duplicate_groups": 3,
+    "duplicate_records": 3
+  },
   "track_counts": {
-    "ai_application": 58,
-    "compute": 54,
+    "ai_application": 57,
+    "compute": 52,
     "edge_ai": 2,
     "memory_packaging": 7,
     "optical": 2,
@@ -93,6 +101,10 @@
           "site_id": "aihot",
           "published_at": "2026-06-09T16:00:00Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_987d2d2943e5"
       ]
     },
     {
@@ -180,6 +192,10 @@
           "site_id": "opmlrss",
           "published_at": "2026-06-09T10:46:19Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_92ae8342b636"
       ]
     },
     {
@@ -261,6 +277,10 @@
           "site_id": "aihot",
           "published_at": "2026-06-09T14:02:33Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_f4a6f6d2b392"
       ]
     },
     {
@@ -340,6 +360,10 @@
           "site_id": "aihot",
           "published_at": "2026-06-09T14:10:19Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_644db884346b"
       ]
     },
     {
@@ -417,6 +441,10 @@
           "site_id": "tophub",
           "published_at": null
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_5f56c77344cc"
       ]
     },
     {
@@ -494,6 +522,10 @@
           "site_id": "buzzing",
           "published_at": "2026-06-09T22:18:10.868000Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_c1320165d10b"
       ]
     },
     {
@@ -571,6 +603,10 @@
           "site_id": "opmlrss",
           "published_at": "2026-06-09T19:38:28Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_7a24901e2115"
       ]
     },
     {
@@ -662,6 +698,10 @@
           "site_id": "opmlrss",
           "published_at": "2026-06-09T15:00:00Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_c954c371157b"
       ]
     },
     {
@@ -738,6 +778,10 @@
           "site_id": "zeli",
           "published_at": "2026-06-09T17:17:21Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_a4aa2e5dc2a7"
       ]
     },
     {
@@ -814,6 +858,10 @@
           "site_id": "buzzing",
           "published_at": "2026-06-09T15:57:37.568000Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_0998b2f011ad"
       ]
     },
     {
@@ -899,6 +947,10 @@
           "site_id": "iris",
           "published_at": "2026-06-09T23:35:17Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_b18a4d7c30fa"
       ]
     },
     {
@@ -991,6 +1043,10 @@
           "site_id": "techurls",
           "published_at": "2026-06-09T12:30:02Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_dc727badc60f"
       ]
     },
     {
@@ -1058,6 +1114,10 @@
           "site_id": "aibase",
           "published_at": "2026-06-10T04:15:10.417146Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_d812c83ae231"
       ]
     },
     {
@@ -1125,6 +1185,10 @@
           "site_id": "aibase",
           "published_at": "2026-06-10T04:15:10.417146Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_a31c67fe538c"
       ]
     },
     {
@@ -1192,6 +1256,10 @@
           "site_id": "aibase",
           "published_at": "2026-06-10T04:15:10.417146Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_2639c0284d79"
       ]
     },
     {
@@ -1260,6 +1328,10 @@
           "site_id": "official_ai",
           "published_at": "2026-06-09T17:39:26Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_bac512f09e1f"
       ]
     },
     {
@@ -1327,6 +1399,10 @@
           "site_id": "aihot",
           "published_at": "2026-06-10T01:46:00Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_0816e4dfd63b"
       ]
     },
     {
@@ -1394,6 +1470,10 @@
           "site_id": "aihot",
           "published_at": "2026-06-10T00:42:27Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_0ac65a53a595"
       ]
     },
     {
@@ -1460,6 +1540,10 @@
           "site_id": "aihot",
           "published_at": "2026-06-09T21:06:26Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_c8f18629feee"
       ]
     },
     {
@@ -1526,6 +1610,10 @@
           "site_id": "aihot",
           "published_at": "2026-06-09T19:51:04Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_8acc3a657dc9"
       ]
     },
     {
@@ -1593,6 +1681,10 @@
           "site_id": "aihot",
           "published_at": "2026-06-09T08:37:48Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_688d38ae0135"
       ]
     },
     {
@@ -1684,6 +1776,10 @@
           "site_id": "buzzing",
           "published_at": "2026-06-09T07:17:16.731000Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_8c498c5f8110"
       ]
     },
     {
@@ -1751,6 +1847,10 @@
           "site_id": "official_ai",
           "published_at": "2026-06-09T07:21:22Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_fbe60601dbd9"
       ]
     },
     {
@@ -1818,6 +1918,10 @@
           "site_id": "official_ai",
           "published_at": "2026-06-09T07:12:54Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_a3e050566613"
       ]
     },
     {
@@ -1885,6 +1989,10 @@
           "site_id": "opmlrss",
           "published_at": "2026-06-10T10:00:00Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_9b4080a29b72"
       ]
     },
     {
@@ -1951,6 +2059,10 @@
           "site_id": "aihot",
           "published_at": "2026-06-09T11:45:15Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_8740ee2be148"
       ]
     },
     {
@@ -2019,6 +2131,10 @@
           "site_id": "techurls",
           "published_at": "2026-06-10T05:05:04Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_0e144db8c339"
       ]
     },
     {
@@ -2087,6 +2203,10 @@
           "site_id": "opmlrss",
           "published_at": "2026-06-09T18:27:52Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_b1a28004eeaa"
       ]
     },
     {
@@ -2153,6 +2273,10 @@
           "site_id": "aibase",
           "published_at": "2026-06-09T11:15:19.256794Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_d6782077cef6"
       ]
     },
     {
@@ -2219,6 +2343,10 @@
           "site_id": "aibase",
           "published_at": "2026-06-09T11:15:19.256794Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_a433f3359560"
       ]
     },
     {
@@ -2285,6 +2413,10 @@
           "site_id": "aibase",
           "published_at": "2026-06-09T11:15:19.256794Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_04f4a483e016"
       ]
     },
     {
@@ -2362,6 +2494,10 @@
           "site_id": "tophub",
           "published_at": null
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_d7b583f96f70"
       ]
     },
     {
@@ -2437,6 +2573,10 @@
           "site_id": "iris",
           "published_at": "2026-06-10T05:19:27Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_a7782cffaab4"
       ]
     },
     {
@@ -2512,6 +2652,10 @@
           "site_id": "buzzing",
           "published_at": "2026-06-10T04:09:53.975000Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_aa76522315cd"
       ]
     },
     {
@@ -2580,6 +2724,10 @@
           "site_id": "opmlrss",
           "published_at": "2026-06-09T16:36:46Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_cc79ea6f7b31"
       ]
     },
     {
@@ -2657,6 +2805,10 @@
           "site_id": "buzzing",
           "published_at": "2026-06-10T04:09:53.972000Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_c4bd331a5a43"
       ]
     },
     {
@@ -2732,6 +2884,10 @@
           "site_id": "iris",
           "published_at": "2026-06-10T02:29:48Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_20f4ca782836"
       ]
     },
     {
@@ -2798,6 +2954,10 @@
           "site_id": "aibase",
           "published_at": "2026-06-09T07:49:47.617244Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_388c1f4faa92"
       ]
     },
     {
@@ -2864,6 +3024,10 @@
           "site_id": "aibase",
           "published_at": "2026-06-09T07:49:47.617244Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_629f7e19235d"
       ]
     },
     {
@@ -2930,6 +3094,10 @@
           "site_id": "aibase",
           "published_at": "2026-06-09T07:49:47.617244Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_f1111df8acc7"
       ]
     },
     {
@@ -2996,6 +3164,10 @@
           "site_id": "aibase",
           "published_at": "2026-06-09T07:49:47.617244Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_19578aa8423b"
       ]
     },
     {
@@ -3062,6 +3234,10 @@
           "site_id": "aibase",
           "published_at": "2026-06-09T07:49:47.617244Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_255b6f92dda2"
       ]
     },
     {
@@ -3132,6 +3308,10 @@
           "site_id": "tophub",
           "published_at": null
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_0892875823ee"
       ]
     },
     {
@@ -3207,6 +3387,10 @@
           "site_id": "iris",
           "published_at": "2026-06-10T00:12:59Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_451f339d155f"
       ]
     },
     {
@@ -3282,6 +3466,10 @@
           "site_id": "iris",
           "published_at": "2026-06-09T23:50:02Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_e939cebab844"
       ]
     },
     {
@@ -3349,6 +3537,10 @@
           "site_id": "newsnow",
           "published_at": "2026-06-10T05:23:27.249000Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_08ab3799ead9"
       ]
     },
     {
@@ -3426,6 +3618,10 @@
           "site_id": "techurls",
           "published_at": "2026-06-09T16:16:12Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_f2990fb2ce72"
       ]
     },
     {
@@ -3493,6 +3689,10 @@
           "site_id": "techurls",
           "published_at": "2026-06-10T04:55:15Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_a270cf19535b"
       ]
     },
     {
@@ -3570,6 +3770,10 @@
           "site_id": "buzzing",
           "published_at": "2026-06-09T16:13:33.953000Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_35ca0fcb15a9"
       ]
     },
     {
@@ -3645,6 +3849,10 @@
           "site_id": "iris",
           "published_at": "2026-06-09T16:50:04Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_ee2ad01b877e"
       ]
     },
     {
@@ -3714,6 +3922,10 @@
           "site_id": "techurls",
           "published_at": "2026-06-09T23:40:00Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_92c453485c88"
       ]
     },
     {
@@ -3781,6 +3993,10 @@
           "site_id": "techurls",
           "published_at": "2026-06-09T22:25:02Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_2896505db8b3"
       ]
     },
     {
@@ -3848,6 +4064,10 @@
           "site_id": "techurls",
           "published_at": "2026-06-09T22:05:01Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_e95fc449d538"
       ]
     },
     {
@@ -3916,6 +4136,10 @@
           "site_id": "buzzing",
           "published_at": "2026-06-10T05:45:58.795000Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_a1a569d28821"
       ]
     },
     {
@@ -3991,6 +4215,10 @@
           "site_id": "techurls",
           "published_at": "2026-06-09T13:05:49Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_691070bfbecc"
       ]
     },
     {
@@ -4057,6 +4285,10 @@
           "site_id": "iris",
           "published_at": "2026-06-10T05:30:35Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_2501a302e37f"
       ]
     },
     {
@@ -4123,6 +4355,10 @@
           "site_id": "opmlrss",
           "published_at": "2026-06-09T19:00:00Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_4fa48603e56a"
       ]
     },
     {
@@ -4189,6 +4425,10 @@
           "site_id": "tophub",
           "published_at": null
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_104c5a041714"
       ]
     },
     {
@@ -4256,6 +4496,10 @@
           "site_id": "techurls",
           "published_at": "2026-06-09T20:10:00Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_0719099677d1"
       ]
     },
     {
@@ -4324,6 +4568,10 @@
           "site_id": "tophub",
           "published_at": null
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_baabc71d4880"
       ]
     },
     {
@@ -4390,6 +4638,10 @@
           "site_id": "tophub",
           "published_at": null
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_7141dbdff6f8"
       ]
     },
     {
@@ -4456,6 +4708,10 @@
           "site_id": "opmlrss",
           "published_at": "2026-06-09T15:58:53Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_59018494754b"
       ]
     },
     {
@@ -4525,6 +4781,10 @@
           "site_id": "techurls",
           "published_at": "2026-06-09T19:17:53Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_e0612aac8cde"
       ]
     },
     {
@@ -4600,6 +4860,10 @@
           "site_id": "techurls",
           "published_at": "2026-06-09T11:30:03Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_8487e8048c15"
       ]
     },
     {
@@ -4668,6 +4932,10 @@
           "site_id": "techurls",
           "published_at": "2026-06-09T10:07:04Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_42d2584586a0"
       ]
     },
     {
@@ -4676,9 +4944,9 @@
       "url": "https://www.36kr.com/newsflashes/3846756486793728",
       "source": "36kr",
       "source_name": "NewsNow",
-      "source_count": 1,
+      "source_count": 2,
       "latest_at": "2026-06-10T03:08:02.915000Z",
-      "earliest_at": "2026-06-10T03:08:02.915000Z",
+      "earliest_at": "2026-06-10T02:53:01Z",
       "ai_story_score": 0.5002,
       "investment_score": 0.3001,
       "investment_domain": "ai_catalyst",
@@ -4733,7 +5001,21 @@
           "source_name": "NewsNow",
           "site_id": "newsnow",
           "published_at": "2026-06-10T03:08:02.915000Z"
+        },
+        {
+          "id": "87c76c64e23899937f7a2c7b2528d773aad04636",
+          "title": "Meta与安巴尼旗下的信实集团合作，在印度建设人工智能数据中心",
+          "url": "https://36kr.com/newsflashes/3846756486793728?f=rss",
+          "source": "36氪 (36Kr)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-10T02:53:01Z"
         }
+      ],
+      "duplicate_count": 2,
+      "duplicate_story_ids": [
+        "story_f3d417d68682",
+        "story_d8058dd10fb6"
       ]
     },
     {
@@ -4742,9 +5024,9 @@
       "url": "https://www.36kr.com/newsflashes/3846750053403137",
       "source": "36kr",
       "source_name": "NewsNow",
-      "source_count": 1,
+      "source_count": 2,
       "latest_at": "2026-06-10T03:08:02.915000Z",
-      "earliest_at": "2026-06-10T03:08:02.915000Z",
+      "earliest_at": "2026-06-10T02:46:28Z",
       "ai_story_score": 0.5002,
       "investment_score": 0.3001,
       "investment_domain": "ai_catalyst",
@@ -4799,7 +5081,21 @@
           "source_name": "NewsNow",
           "site_id": "newsnow",
           "published_at": "2026-06-10T03:08:02.915000Z"
+        },
+        {
+          "id": "ac781994ef2668d0a86b23711287445027922cf4",
+          "title": "林洋能源在雄安成立算力技术公司，注册资本2亿",
+          "url": "https://36kr.com/newsflashes/3846750053403137?f=rss",
+          "source": "36氪 (36Kr)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-10T02:46:28Z"
         }
+      ],
+      "duplicate_count": 2,
+      "duplicate_story_ids": [
+        "story_de91e65ee196",
+        "story_cdf1a65f0818"
       ]
     },
     {
@@ -4875,6 +5171,10 @@
           "site_id": "tophub",
           "published_at": null
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_9316e14e6ad5"
       ]
     },
     {
@@ -4950,6 +5250,10 @@
           "site_id": "tophub",
           "published_at": null
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_562be2fd74da"
       ]
     },
     {
@@ -5025,6 +5329,10 @@
           "site_id": "tophub",
           "published_at": null
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_71a85067764a"
       ]
     },
     {
@@ -5091,6 +5399,10 @@
           "site_id": "buzzing",
           "published_at": "2026-06-10T03:05:49.985000Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_1f8872023db0"
       ]
     },
     {
@@ -5157,72 +5469,10 @@
           "site_id": "opmlrss",
           "published_at": "2026-06-09T16:35:08Z"
         }
-      ]
-    },
-    {
-      "story_id": "story_d8058dd10fb6",
-      "title": "Meta与安巴尼旗下的信实集团合作，在印度建设人工智能数据中心",
-      "url": "https://36kr.com/newsflashes/3846756486793728?f=rss",
-      "source": "36氪 (36Kr)",
-      "source_name": "Info Flow",
-      "source_count": 1,
-      "latest_at": "2026-06-10T02:53:01Z",
-      "earliest_at": "2026-06-10T02:53:01Z",
-      "ai_story_score": 0.4981,
-      "investment_score": 0.2993,
-      "investment_domain": "ai_catalyst",
-      "investment_role": "demand_side_catalyst",
-      "evidence_level": "L0",
-      "tracks": [
-        {
-          "id": "compute",
-          "label": "算力基础设施",
-          "matched_keywords": [
-            "数据中心"
-          ],
-          "chain_nodes": [
-            "GPU",
-            "AI服务器",
-            "智算中心",
-            "云计算"
-          ],
-          "a_share_themes": [
-            "算力",
-            "AI服务器",
-            "数据中心"
-          ]
-        }
       ],
-      "chain_nodes": [
-        "GPU",
-        "AI服务器",
-        "智算中心",
-        "云计算"
-      ],
-      "a_share_themes": [
-        "算力",
-        "AI服务器",
-        "数据中心"
-      ],
-      "validation_needed": [
-        "是否有官方公告、订单、资本开支或财务数据验证",
-        "是否能映射到具体产业链节点和上市公司主营业务",
-        "是否已经在板块涨跌幅、成交量或资金流中反映",
-        "是否只是概念热度而缺少业绩兑现路径"
-      ],
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "sources": [
-        {
-          "id": "87c76c64e23899937f7a2c7b2528d773aad04636",
-          "title": "Meta与安巴尼旗下的信实集团合作，在印度建设人工智能数据中心",
-          "url": "https://36kr.com/newsflashes/3846756486793728?f=rss",
-          "source": "36氪 (36Kr)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-10T02:53:01Z"
-        }
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_31d676a3abc2"
       ]
     },
     {
@@ -5289,72 +5539,10 @@
           "site_id": "buzzing",
           "published_at": "2026-06-10T02:49:50.289000Z"
         }
-      ]
-    },
-    {
-      "story_id": "story_cdf1a65f0818",
-      "title": "林洋能源在雄安成立算力技术公司，注册资本2亿",
-      "url": "https://36kr.com/newsflashes/3846750053403137?f=rss",
-      "source": "36氪 (36Kr)",
-      "source_name": "Info Flow",
-      "source_count": 1,
-      "latest_at": "2026-06-10T02:46:28Z",
-      "earliest_at": "2026-06-10T02:46:28Z",
-      "ai_story_score": 0.4972,
-      "investment_score": 0.299,
-      "investment_domain": "ai_catalyst",
-      "investment_role": "demand_side_catalyst",
-      "evidence_level": "L0",
-      "tracks": [
-        {
-          "id": "compute",
-          "label": "算力基础设施",
-          "matched_keywords": [
-            "算力"
-          ],
-          "chain_nodes": [
-            "GPU",
-            "AI服务器",
-            "智算中心",
-            "云计算"
-          ],
-          "a_share_themes": [
-            "算力",
-            "AI服务器",
-            "数据中心"
-          ]
-        }
       ],
-      "chain_nodes": [
-        "GPU",
-        "AI服务器",
-        "智算中心",
-        "云计算"
-      ],
-      "a_share_themes": [
-        "算力",
-        "AI服务器",
-        "数据中心"
-      ],
-      "validation_needed": [
-        "是否有官方公告、订单、资本开支或财务数据验证",
-        "是否能映射到具体产业链节点和上市公司主营业务",
-        "是否已经在板块涨跌幅、成交量或资金流中反映",
-        "是否只是概念热度而缺少业绩兑现路径"
-      ],
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "sources": [
-        {
-          "id": "ac781994ef2668d0a86b23711287445027922cf4",
-          "title": "林洋能源在雄安成立算力技术公司，注册资本2亿",
-          "url": "https://36kr.com/newsflashes/3846750053403137?f=rss",
-          "source": "36氪 (36Kr)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-10T02:46:28Z"
-        }
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_3fa47ec4cbc8"
       ]
     },
     {
@@ -5421,6 +5609,10 @@
           "site_id": "techurls",
           "published_at": "2026-06-10T01:55:09Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_6abc0791486b"
       ]
     },
     {
@@ -5487,6 +5679,10 @@
           "site_id": "iris",
           "published_at": "2026-06-10T01:33:27Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_6af8e7afc0b0"
       ]
     },
     {
@@ -5553,6 +5749,10 @@
           "site_id": "iris",
           "published_at": "2026-06-10T00:56:56Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_e32f936aa456"
       ]
     },
     {
@@ -5619,6 +5819,10 @@
           "site_id": "buzzing",
           "published_at": "2026-06-10T00:42:01.462000Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_27d3724bc68f"
       ]
     },
     {
@@ -5687,6 +5891,10 @@
           "site_id": "buzzing",
           "published_at": "2026-06-10T00:42:01.589000Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_78ded2cc710b"
       ]
     },
     {
@@ -5753,6 +5961,10 @@
           "site_id": "tophub",
           "published_at": null
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_077cb17ce591"
       ]
     },
     {
@@ -5821,6 +6033,10 @@
           "site_id": "tophub",
           "published_at": null
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_dc5b34cd6bd9"
       ]
     },
     {
@@ -5887,6 +6103,10 @@
           "site_id": "tophub",
           "published_at": null
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_bf53fd3b610d"
       ]
     },
     {
@@ -5953,6 +6173,10 @@
           "site_id": "iris",
           "published_at": "2026-06-10T00:12:56Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_18cc57de7192"
       ]
     },
     {
@@ -6019,6 +6243,10 @@
           "site_id": "buzzing",
           "published_at": "2026-06-09T23:37:57.479000Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_a61f17bdd66e"
       ]
     },
     {
@@ -6085,6 +6313,10 @@
           "site_id": "techurls",
           "published_at": "2026-06-09T22:55:02Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_42ce8aac04b4"
       ]
     },
     {
@@ -6151,6 +6383,10 @@
           "site_id": "iris",
           "published_at": "2026-06-09T22:51:40Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_cb357f3cb5bd"
       ]
     },
     {
@@ -6219,6 +6455,10 @@
           "site_id": "buzzing",
           "published_at": "2026-06-09T22:50:13.666000Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_a03d099d242e"
       ]
     },
     {
@@ -6286,6 +6526,10 @@
           "site_id": "tophub",
           "published_at": null
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_3acb581bc868"
       ]
     },
     {
@@ -6354,6 +6598,10 @@
           "site_id": "buzzing",
           "published_at": "2026-06-09T22:33:51.742000Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_5a0012781a77"
       ]
     },
     {
@@ -6420,6 +6668,10 @@
           "site_id": "buzzing",
           "published_at": "2026-06-09T22:18:10.917000Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_5c5e82fd6231"
       ]
     },
     {
@@ -6486,6 +6738,10 @@
           "site_id": "iris",
           "published_at": "2026-06-09T21:28:24Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_09a432e59942"
       ]
     },
     {
@@ -6552,6 +6808,10 @@
           "site_id": "tophub",
           "published_at": null
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_c35dbb79f259"
       ]
     },
     {
@@ -6620,6 +6880,10 @@
           "site_id": "buzzing",
           "published_at": "2026-06-09T21:13:58.035000Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_6c0c6031a726"
       ]
     },
     {
@@ -6686,6 +6950,10 @@
           "site_id": "techurls",
           "published_at": "2026-06-09T21:00:00Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_8501f851accd"
       ]
     },
     {
@@ -6754,6 +7022,10 @@
           "site_id": "techurls",
           "published_at": "2026-06-09T20:50:01Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_af944f045a6f"
       ]
     },
     {
@@ -6822,6 +7094,10 @@
           "site_id": "buzzing",
           "published_at": "2026-06-09T20:26:01.415000Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_02748530ad78"
       ]
     },
     {
@@ -6888,6 +7164,10 @@
           "site_id": "buzzing",
           "published_at": "2026-06-09T20:10:05.586000Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_cee6eb5d138a"
       ]
     },
     {
@@ -6957,6 +7237,10 @@
           "site_id": "techurls",
           "published_at": "2026-06-09T11:32:34Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_8735ff108a1c"
       ]
     },
     {
@@ -7023,6 +7307,10 @@
           "site_id": "opmlrss",
           "published_at": "2026-06-09T10:00:00Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_3c096e7f19bd"
       ]
     },
     {
@@ -7091,6 +7379,10 @@
           "site_id": "zeli",
           "published_at": "2026-06-09T19:05:08Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_51983543e2cf"
       ]
     },
     {
@@ -7159,6 +7451,10 @@
           "site_id": "buzzing",
           "published_at": "2026-06-09T18:50:26.681000Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_15be6a73d485"
       ]
     },
     {
@@ -7228,6 +7524,10 @@
           "site_id": "techurls",
           "published_at": "2026-06-09T10:00:03Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_6e7d767cc7d3"
       ]
     },
     {
@@ -7297,6 +7597,10 @@
           "site_id": "techurls",
           "published_at": "2026-06-09T09:46:23Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_0829aa8d7366"
       ]
     },
     {
@@ -7364,6 +7668,10 @@
           "site_id": "techurls",
           "published_at": "2026-06-09T09:10:05Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_7b2a1fd63442"
       ]
     },
     {
@@ -7430,6 +7738,10 @@
           "site_id": "techurls",
           "published_at": "2026-06-09T16:59:34Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_95c1660edeb2"
       ]
     },
     {
@@ -7498,6 +7810,10 @@
           "site_id": "buzzing",
           "published_at": "2026-06-09T16:59:36.392000Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_e2c72f1e3055"
       ]
     },
     {
@@ -7565,6 +7881,10 @@
           "site_id": "iris",
           "published_at": "2026-06-09T08:21:10Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_40abf5e241c4"
       ]
     },
     {
@@ -7631,6 +7951,10 @@
           "site_id": "zeli",
           "published_at": "2026-06-09T16:55:04Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_c395c7891d30"
       ]
     },
     {
@@ -7697,6 +8021,10 @@
           "site_id": "iris",
           "published_at": "2026-06-09T16:49:44Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_fec90372379d"
       ]
     },
     {
@@ -7763,6 +8091,10 @@
           "site_id": "tophub",
           "published_at": null
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_bdf09a67b24b"
       ]
     },
     {
@@ -7829,6 +8161,10 @@
           "site_id": "buzzing",
           "published_at": "2026-06-09T16:13:33.448000Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_c444427e64c4"
       ]
     },
     {
@@ -7897,6 +8233,10 @@
           "site_id": "buzzing",
           "published_at": "2026-06-09T16:13:33.835000Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_36b09b491e09"
       ]
     },
     {
@@ -7965,6 +8305,10 @@
           "site_id": "buzzing",
           "published_at": "2026-06-09T16:13:33.967000Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_7b7b6f4c7d06"
       ]
     },
     {
@@ -8031,6 +8375,10 @@
           "site_id": "iris",
           "published_at": "2026-06-09T16:05:33Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_5bbb8d8843de"
       ]
     },
     {
@@ -8097,6 +8445,10 @@
           "site_id": "iris",
           "published_at": "2026-06-09T16:00:00Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_36899afac921"
       ]
     },
     {
@@ -8165,6 +8517,10 @@
           "site_id": "buzzing",
           "published_at": "2026-06-09T15:42:24.634000Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_b0f8a1fa294c"
       ]
     },
     {
@@ -8233,6 +8589,10 @@
           "site_id": "techurls",
           "published_at": "2026-06-09T15:35:00Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_efab6d3c55ca"
       ]
     },
     {
@@ -8299,6 +8659,10 @@
           "site_id": "zeli",
           "published_at": "2026-06-09T15:12:30Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_5f04501b2e8c"
       ]
     },
     {
@@ -8365,6 +8729,10 @@
           "site_id": "buzzing",
           "published_at": "2026-06-09T15:10:41.959000Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_2b488fc4f7f0"
       ]
     },
     {
@@ -8431,6 +8799,10 @@
           "site_id": "iris",
           "published_at": "2026-06-09T14:02:37Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_f616f1f3f61a"
       ]
     },
     {
@@ -8497,6 +8869,10 @@
           "site_id": "tophub",
           "published_at": null
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_410e4a4877c0"
       ]
     },
     {
@@ -8563,6 +8939,10 @@
           "site_id": "tophub",
           "published_at": null
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_1af26c3662c3"
       ]
     },
     {
@@ -8629,6 +9009,10 @@
           "site_id": "techurls",
           "published_at": "2026-06-09T13:34:48Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_0d1ce8a78de3"
       ]
     },
     {
@@ -8695,6 +9079,10 @@
           "site_id": "buzzing",
           "published_at": "2026-06-09T13:35:25.406000Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_d7760009c0e3"
       ]
     },
     {
@@ -8763,6 +9151,10 @@
           "site_id": "buzzing",
           "published_at": "2026-06-09T13:35:27.600000Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_c68768c0094f"
       ]
     },
     {
@@ -8829,6 +9221,10 @@
           "site_id": "zeli",
           "published_at": "2026-06-09T13:27:03Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_a1b66dff9723"
       ]
     },
     {
@@ -8895,6 +9291,10 @@
           "site_id": "techurls",
           "published_at": "2026-06-09T12:20:33Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_ec8761e69a12"
       ]
     },
     {
@@ -8961,6 +9361,10 @@
           "site_id": "iris",
           "published_at": "2026-06-09T11:30:53Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_2ca0dac198fa"
       ]
     },
     {
@@ -9027,6 +9431,10 @@
           "site_id": "tophub",
           "published_at": null
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_2432c9b511be"
       ]
     },
     {
@@ -9093,6 +9501,10 @@
           "site_id": "tophub",
           "published_at": null
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_562999f12fa8"
       ]
     },
     {
@@ -9159,6 +9571,10 @@
           "site_id": "tophub",
           "published_at": null
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_45f3ca0c4d63"
       ]
     },
     {
@@ -9225,6 +9641,10 @@
           "site_id": "buzzing",
           "published_at": "2026-06-09T10:42:25.501000Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_20a81f2f5e3f"
       ]
     },
     {
@@ -9293,6 +9713,10 @@
           "site_id": "buzzing",
           "published_at": "2026-06-09T10:42:28.848000Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_37e7805c2224"
       ]
     },
     {
@@ -9359,6 +9783,10 @@
           "site_id": "techurls",
           "published_at": "2026-06-09T10:36:21Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_aca531b78e62"
       ]
     },
     {
@@ -9425,6 +9853,10 @@
           "site_id": "techurls",
           "published_at": "2026-06-09T09:55:01Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_7b180c5d82a3"
       ]
     },
     {
@@ -9491,6 +9923,10 @@
           "site_id": "iris",
           "published_at": "2026-06-09T09:40:34Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_4a0ba1eadaf9"
       ]
     },
     {
@@ -9557,6 +9993,10 @@
           "site_id": "iris",
           "published_at": "2026-06-09T09:37:25Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_0e2e064810da"
       ]
     },
     {
@@ -9623,6 +10063,10 @@
           "site_id": "iris",
           "published_at": "2026-06-09T09:20:10Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_4965a000659a"
       ]
     },
     {
@@ -9689,6 +10133,10 @@
           "site_id": "techurls",
           "published_at": "2026-06-09T09:00:00Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_5496b8fe28b2"
       ]
     },
     {
@@ -9755,6 +10203,10 @@
           "site_id": "techurls",
           "published_at": "2026-06-09T09:00:03Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_a4811a4517de"
       ]
     },
     {
@@ -9821,6 +10273,10 @@
           "site_id": "tophub",
           "published_at": null
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_3b4511d83b57"
       ]
     },
     {
@@ -9887,6 +10343,10 @@
           "site_id": "iris",
           "published_at": "2026-06-09T07:22:45Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_38e6c2988c9e"
       ]
     },
     {
@@ -9953,6 +10413,10 @@
           "site_id": "buzzing",
           "published_at": "2026-06-09T07:17:16.739000Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_c7ef87fd7090"
       ]
     },
     {
@@ -10019,6 +10483,10 @@
           "site_id": "buzzing",
           "published_at": "2026-06-09T07:17:16.743000Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_e9546e71b08b"
       ]
     },
     {
@@ -10027,9 +10495,9 @@
       "url": "https://www.36kr.com/newsflashes/3845568386910468",
       "source": "36kr",
       "source_name": "NewsNow",
-      "source_count": 1,
+      "source_count": 2,
       "latest_at": "2026-06-09T06:34:57.327000Z",
-      "earliest_at": "2026-06-09T06:34:57.327000Z",
+      "earliest_at": "2026-06-09T06:34:27Z",
       "ai_story_score": 0.329,
       "investment_score": 0.2402,
       "investment_domain": "ai_catalyst",
@@ -10084,7 +10552,21 @@
           "source_name": "NewsNow",
           "site_id": "newsnow",
           "published_at": "2026-06-09T06:34:57.327000Z"
+        },
+        {
+          "id": "8730a27699279ed2e43583f04d37fb31c5b496d9",
+          "title": "三星拟面部署人工智能，重塑工作流程和企业文化",
+          "url": "https://36kr.com/newsflashes/3845568386910468?f=rss",
+          "source": "36氪 (36Kr)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-09T06:34:27Z"
         }
+      ],
+      "duplicate_count": 2,
+      "duplicate_story_ids": [
+        "story_7727206c1398",
+        "story_ef6d99af3da4"
       ]
     },
     {
@@ -10151,72 +10633,10 @@
           "site_id": "iris",
           "published_at": "2026-06-09T06:35:55Z"
         }
-      ]
-    },
-    {
-      "story_id": "story_ef6d99af3da4",
-      "title": "三星拟面部署人工智能，重塑工作流程和企业文化",
-      "url": "https://36kr.com/newsflashes/3845568386910468?f=rss",
-      "source": "36氪 (36Kr)",
-      "source_name": "Info Flow",
-      "source_count": 1,
-      "latest_at": "2026-06-09T06:34:27Z",
-      "earliest_at": "2026-06-09T06:34:27Z",
-      "ai_story_score": 0.3289,
-      "investment_score": 0.2401,
-      "investment_domain": "ai_catalyst",
-      "investment_role": "demand_side_catalyst",
-      "evidence_level": "L0",
-      "tracks": [
-        {
-          "id": "ai_application",
-          "label": "AI应用与内容工具",
-          "matched_keywords": [
-            "工作流"
-          ],
-          "chain_nodes": [
-            "AI应用软件",
-            "内容生成",
-            "游戏工具链",
-            "企业服务"
-          ],
-          "a_share_themes": [
-            "AI应用",
-            "传媒游戏",
-            "软件服务"
-          ]
-        }
       ],
-      "chain_nodes": [
-        "AI应用软件",
-        "内容生成",
-        "游戏工具链",
-        "企业服务"
-      ],
-      "a_share_themes": [
-        "AI应用",
-        "传媒游戏",
-        "软件服务"
-      ],
-      "validation_needed": [
-        "是否有官方公告、订单、资本开支或财务数据验证",
-        "是否能映射到具体产业链节点和上市公司主营业务",
-        "是否已经在板块涨跌幅、成交量或资金流中反映",
-        "是否只是概念热度而缺少业绩兑现路径"
-      ],
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "sources": [
-        {
-          "id": "8730a27699279ed2e43583f04d37fb31c5b496d9",
-          "title": "三星拟面部署人工智能，重塑工作流程和企业文化",
-          "url": "https://36kr.com/newsflashes/3845568386910468?f=rss",
-          "source": "36氪 (36Kr)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-09T06:34:27Z"
-        }
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_b8555b4627d0"
       ]
     },
     {
@@ -10283,6 +10703,10 @@
           "site_id": "iris",
           "published_at": "2026-06-09T05:52:47Z"
         }
+      ],
+      "duplicate_count": 1,
+      "duplicate_story_ids": [
+        "story_5ee8e19d9066"
       ]
     }
   ]

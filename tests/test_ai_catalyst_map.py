@@ -102,3 +102,61 @@ def test_build_payload_falls_back_to_latest_items():
     assert payload["total_catalyst_stories"] == 1
     assert payload["track_counts"] == {"compute": 1}
     assert payload["items"][0]["title"] == item_to_story(latest_item)["title"]
+
+
+def test_build_payload_merges_hard_duplicate_catalyst_records():
+    stories_payload = {
+        "generated_at": "2026-06-10T00:00:00Z",
+        "stories": [
+            {
+                "story_id": "story-a",
+                "title": "林洋能源在雄安成立算力技术公司，注册资本2亿",
+                "url": "https://www.36kr.com/newsflashes/3846750053403137",
+                "source_name": "NewsNow",
+                "source_count": 1,
+                "score": 0.7,
+                "sources": [
+                    {
+                        "title": "林洋能源在雄安成立算力技术公司，注册资本2亿",
+                        "url": "https://www.36kr.com/newsflashes/3846750053403137",
+                        "source_name": "NewsNow",
+                    }
+                ],
+            },
+            {
+                "story_id": "story-b",
+                "title": "林洋能源在雄安成立算力技术公司，注册资本2亿",
+                "url": "https://36kr.com/newsflashes/3846750053403137?f=rss",
+                "source_name": "Info Flow",
+                "source_count": 1,
+                "score": 0.6,
+                "sources": [
+                    {
+                        "title": "林洋能源在雄安成立算力技术公司，注册资本2亿",
+                        "url": "https://36kr.com/newsflashes/3846750053403137?f=rss",
+                        "source_name": "Info Flow",
+                    }
+                ],
+            },
+        ],
+    }
+
+    payload = build_payload(
+        profile=PROFILE,
+        stories_payload=stories_payload,
+        latest_payload={},
+        generated_at="2026-06-10T01:00:00Z",
+    )
+
+    assert payload["total_raw_catalyst_stories"] == 2
+    assert payload["total_catalyst_stories"] == 1
+    assert payload["dedupe"]["duplicate_groups"] == 1
+    assert payload["dedupe"]["duplicate_records"] == 1
+
+    record = payload["items"][0]
+    assert record["duplicate_count"] == 2
+    assert record["duplicate_story_ids"] == ["story-a", "story-b"]
+    assert record["source_count"] == 2
+    assert len(record["sources"]) == 2
+    assert record["investment_score"] >= 0.3
+    assert {track["id"] for track in record["tracks"]} == {"compute"}

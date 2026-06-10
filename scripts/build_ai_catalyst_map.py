@@ -9,6 +9,10 @@ import re
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
+from urllib.parse import parse_qsl
+from urllib.parse import urlencode
+from urllib.parse import urlparse
+from urllib.parse import urlunparse
 
 
 DEFAULT_PROFILE = Path("configs/investment_domains/ai_catalyst.json")
@@ -33,6 +37,54 @@ def read_json(path: Path) -> dict[str, Any]:
 
 def normalize_text(value: Any) -> str:
     return re.sub(r"\s+", " ", str(value or "")).strip()
+
+
+def canonical_record_url(raw_url: Any) -> str:
+    """Normalize only hard-duplicate URL noise, not semantic URL identity."""
+    url = str(raw_url or "").strip()
+    if not url:
+        return ""
+    try:
+        parsed = urlparse(url)
+    except ValueError:
+        return url.lower()
+    if not parsed.scheme or not parsed.netloc:
+        return url.lower()
+
+    scheme = parsed.scheme.lower()
+    netloc = parsed.netloc.lower()
+    if netloc.startswith("www."):
+        netloc = netloc[4:]
+
+    tracking_prefixes = ("utm_",)
+    tracking_keys = {
+        "f",
+        "fbclid",
+        "from",
+        "from_source",
+        "fromsource",
+        "hmsr",
+        "ref",
+        "ref_src",
+        "spm",
+    }
+    query_pairs = [
+        (key, value)
+        for key, value in parse_qsl(parsed.query, keep_blank_values=True)
+        if key.lower() not in tracking_keys and not key.lower().startswith(tracking_prefixes)
+    ]
+    query = urlencode(query_pairs, doseq=True)
+    path = re.sub(r"/+", "/", parsed.path or "/").rstrip("/") or "/"
+    return urlunparse((scheme, netloc, path, "", query, ""))
+
+
+def normalized_hard_title(raw_title: Any) -> str:
+    title = str(raw_title or "").strip().lower()
+    if not title:
+        return ""
+    title = re.sub(r"https?://\S+", " ", title)
+    title = re.sub(r"[\W_]+", " ", title, flags=re.UNICODE)
+    return re.sub(r"\s+", " ", title).strip()
 
 
 def aggregate_story_text(story: dict[str, Any]) -> str:
@@ -117,6 +169,157 @@ def unique_flatten(rows: list[dict[str, Any]], key: str) -> list[str]:
                 seen.add(s)
                 values.append(s)
     return values
+
+
+def unique_values(values: list[Any]) -> list[str]:
+    out: list[str] = []
+    seen: set[str] = set()
+    for value in values:
+        text = str(value or "").strip()
+        if text and text not in seen:
+            seen.add(text)
+            out.append(text)
+    return out
+
+
+def merge_track_rows(existing: list[dict[str, Any]], incoming: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    by_id: dict[str, dict[str, Any]] = {}
+    order: list[str] = []
+    for track in [*existing, *incoming]:
+        if not isinstance(track, dict):
+            continue
+        track_id = str(track.get("id") or "").strip()
+        if not track_id:
+            continue
+        if track_id not in by_id:
+            by_id[track_id] = {
+                "id": track_id,
+                "label": track.get("label"),
+                "matched_keywords": [],
+                "chain_nodes": [],
+                "a_share_themes": [],
+            }
+            order.append(track_id)
+        row = by_id[track_id]
+        row["label"] = row.get("label") or track.get("label")
+        row["matched_keywords"] = unique_values([*row.get("matched_keywords", []), *list(track.get("matched_keywords") or [])])
+        row["chain_nodes"] = unique_values([*row.get("chain_nodes", []), *list(track.get("chain_nodes") or [])])
+        row["a_share_themes"] = unique_values([*row.get("a_share_themes", []), *list(track.get("a_share_themes") or [])])
+    return [by_id[track_id] for track_id in order]
+
+
+def source_identity(source: dict[str, Any]) -> str:
+    url = canonical_record_url(source.get("url"))
+    source_name = str(source.get("source_name") or source.get("site_id") or source.get("source") or "").strip().lower()
+    if url:
+        return f"url::{url}::source::{source_name}"
+    title = normalized_hard_title(source.get("title"))
+    if title:
+        return f"title::{title}"
+    return json.dumps(source, sort_keys=True, ensure_ascii=False)
+
+
+def merge_source_rows(existing: list[dict[str, Any]], incoming: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    out: list[dict[str, Any]] = []
+    seen: set[str] = set()
+    for source in [*existing, *incoming]:
+        if not isinstance(source, dict):
+            continue
+        key = source_identity(source)
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(source)
+    return out
+
+
+def latest_time(values: list[Any]) -> Any:
+    clean = [str(value) for value in values if value]
+    return max(clean) if clean else None
+
+
+def earliest_time(values: list[Any]) -> Any:
+    clean = [str(value) for value in values if value]
+    return min(clean) if clean else None
+
+
+def evidence_rank(level: Any) -> int:
+    ranks = {"L0": 0, "L1": 1, "L2": 2, "L3": 3}
+    return ranks.get(str(level or "").upper(), 0)
+
+
+def merge_duplicate_record(primary: dict[str, Any], duplicate: dict[str, Any]) -> dict[str, Any]:
+    merged = dict(primary)
+    merged["duplicate_count"] = int(merged.get("duplicate_count") or 1) + int(duplicate.get("duplicate_count") or 1)
+    merged["duplicate_story_ids"] = unique_values(
+        [
+            *(merged.get("duplicate_story_ids") or [merged.get("story_id")]),
+            *(duplicate.get("duplicate_story_ids") or [duplicate.get("story_id")]),
+        ]
+    )
+    merged["latest_at"] = latest_time([merged.get("latest_at"), duplicate.get("latest_at")])
+    merged["earliest_at"] = earliest_time([merged.get("earliest_at"), duplicate.get("earliest_at")])
+    merged["investment_score"] = max(float(merged.get("investment_score") or 0), float(duplicate.get("investment_score") or 0))
+    merged["ai_story_score"] = max(float(merged.get("ai_story_score") or 0), float(duplicate.get("ai_story_score") or 0))
+    if evidence_rank(duplicate.get("evidence_level")) > evidence_rank(merged.get("evidence_level")):
+        merged["evidence_level"] = duplicate.get("evidence_level")
+
+    merged["tracks"] = merge_track_rows(list(merged.get("tracks") or []), list(duplicate.get("tracks") or []))
+    merged["chain_nodes"] = unique_flatten(list(merged.get("tracks") or []), "chain_nodes")
+    merged["a_share_themes"] = unique_flatten(list(merged.get("tracks") or []), "a_share_themes")
+    merged["validation_needed"] = unique_values([*list(merged.get("validation_needed") or []), *list(duplicate.get("validation_needed") or [])])
+    merged["reasons"] = unique_values([*list(merged.get("reasons") or []), *list(duplicate.get("reasons") or [])])
+    merged["sources"] = merge_source_rows(list(merged.get("sources") or []), list(duplicate.get("sources") or []))
+    merged["source_count"] = max(int(merged.get("source_count") or 1), len(merged["sources"]) or 1)
+    return merged
+
+
+def record_hard_dedupe_keys(record: dict[str, Any]) -> list[str]:
+    keys: list[str] = []
+    url = canonical_record_url(record.get("url"))
+    if url:
+        keys.append(f"url::{url}")
+    title = normalized_hard_title(record.get("title"))
+    if title:
+        keys.append(f"title::{title}")
+    return keys
+
+
+def dedupe_hard_records(records: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    out: list[dict[str, Any]] = []
+    key_to_index: dict[str, int] = {}
+    duplicate_groups = 0
+    duplicate_records = 0
+
+    for record in records:
+        record = dict(record)
+        record["duplicate_count"] = int(record.get("duplicate_count") or 1)
+        record["duplicate_story_ids"] = unique_values(record.get("duplicate_story_ids") or [record.get("story_id")])
+        keys = record_hard_dedupe_keys(record)
+        match_index = next((key_to_index[key] for key in keys if key in key_to_index), None)
+        if match_index is None:
+            out.append(record)
+            index = len(out) - 1
+            for key in keys:
+                key_to_index[key] = index
+            continue
+
+        before_count = int(out[match_index].get("duplicate_count") or 1)
+        out[match_index] = merge_duplicate_record(out[match_index], record)
+        after_count = int(out[match_index].get("duplicate_count") or 1)
+        if before_count == 1 and after_count > 1:
+            duplicate_groups += 1
+        duplicate_records += int(record.get("duplicate_count") or 1)
+        for key in [*record_hard_dedupe_keys(out[match_index]), *keys]:
+            key_to_index[key] = match_index
+
+    return out, {
+        "strategy": "canonical_url_or_exact_normalized_title_v1",
+        "raw_records": len(records),
+        "deduped_records": len(out),
+        "duplicate_groups": duplicate_groups,
+        "duplicate_records": duplicate_records,
+    }
 
 
 def evidence_level_for(story: dict[str, Any], profile: dict[str, Any]) -> str:
@@ -233,6 +436,15 @@ def build_payload(
             str(item.get("title") or ""),
         )
     )
+    raw_record_count = len(records)
+    records, dedupe_stats = dedupe_hard_records(records)
+    records.sort(
+        key=lambda item: (
+            -float(item.get("investment_score") or 0),
+            str(item.get("latest_at") or ""),
+            str(item.get("title") or ""),
+        )
+    )
     track_counts: dict[str, int] = {}
     for record in records:
         for track in record.get("tracks") or []:
@@ -247,6 +459,8 @@ def build_payload(
         "display_name": profile.get("display_name") or "AI Catalyst",
         "total_input_stories": len(stories),
         "total_catalyst_stories": len(records),
+        "total_raw_catalyst_stories": raw_record_count,
+        "dedupe": dedupe_stats,
         "track_counts": dict(sorted(track_counts.items())),
         "items": records,
     }
