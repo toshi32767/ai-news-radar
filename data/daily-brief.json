@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-10T05:17:58.225321Z",
+  "generated_at": "2026-06-10T05:52:03.449165Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
     {
-      "story_id": "story_71f20db3a5e0",
+      "story_id": "story_5f56c77344cc",
       "title": "腾讯光子曝光内部打磨 4 年的 AI 游戏资产生成平台Light AI，试图打通\"单点生成\"到工业化管线的最后一公里",
       "url": "https://www.aibase.com/news/28806",
       "primary_url": "https://www.aibase.com/news/28806",
@@ -57,14 +57,14 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8283,
-      "importance": 0.8283,
-      "importance_score": 0.8283,
+      "score": 0.8235,
+      "importance": 0.8235,
+      "importance_score": 0.8235,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9564,
+        "recency": 0.9327,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -118,14 +118,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8203,
-      "importance": 0.8203,
-      "importance_score": 0.8203,
+      "score": 0.8155,
+      "importance": 0.8155,
+      "importance_score": 0.8155,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7963,
+        "recency": 0.7727,
         "story_heat": 0.0
       },
       "category": "official",
@@ -142,6 +142,126 @@
         "url": "https://github.blog/changelog/2026-06-09-dependabot-version-updates-now-support-the-deno-ecosystem",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_3adeea4014ec",
+      "title": "​有赞首批内测微信AI生态，商家可通过对话搞定80%经营场景",
+      "url": "https://www.aibase.com/news/28807",
+      "primary_url": "https://www.aibase.com/news/28807",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "b91c45d60194c0620e9e043c1ca8971280b8c2cd",
+          "title": "​有赞首批内测微信AI生态，商家可通过对话搞定80%经营场景",
+          "url": "https://www.aibase.com/news/28807",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-10T05:52:03.449165Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "b91c45d60194c0620e9e043c1ca8971280b8c2cd",
+          "title": "​有赞首批内测微信AI生态，商家可通过对话搞定80%经营场景",
+          "url": "https://www.aibase.com/news/28807",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-06-10T05:52:03.449165Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.812,
+      "importance": 0.812,
+      "importance_score": 0.812,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-10T05:52:03.449165Z",
+      "latest_at": "2026-06-10T05:52:03.449165Z",
+      "primary_item": {
+        "id": "b91c45d60194c0620e9e043c1ca8971280b8c2cd",
+        "title": "​有赞首批内测微信AI生态，商家可通过对话搞定80%经营场景",
+        "url": "https://www.aibase.com/news/28807",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_88f1418a083e",
+      "title": "火山方舟版权商业化平台上线，周星驰比高集团三大电影IP首批入驻",
+      "url": "https://mp.weixin.qq.com/s/g3DxNO_3aYI4g26gQ2Yvig",
+      "primary_url": "https://mp.weixin.qq.com/s/g3DxNO_3aYI4g26gQ2Yvig",
+      "source": "公众号：火山引擎",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "f2ee70a09bc80f1975e2919fe1c8db8726c52b2d",
+          "title": "火山方舟版权商业化平台上线，周星驰比高集团三大电影IP首批入驻",
+          "url": "https://mp.weixin.qq.com/s/g3DxNO_3aYI4g26gQ2Yvig",
+          "source": "公众号：火山引擎",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-10T04:30:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "公众号：火山引擎"
+      ],
+      "items": [
+        {
+          "id": "f2ee70a09bc80f1975e2919fe1c8db8726c52b2d",
+          "title": "火山方舟版权商业化平台上线，周星驰比高集团三大电影IP首批入驻",
+          "url": "https://mp.weixin.qq.com/s/g3DxNO_3aYI4g26gQ2Yvig",
+          "source": "公众号：火山引擎",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-10T04:30:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8006,
+      "importance": 0.8006,
+      "importance_score": 0.8006,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.943,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-06-10T04:30:00Z",
+      "latest_at": "2026-06-10T04:30:00Z",
+      "primary_item": {
+        "id": "f2ee70a09bc80f1975e2919fe1c8db8726c52b2d",
+        "title": "火山方舟版权商业化平台上线，周星驰比高集团三大电影IP首批入驻",
+        "url": "https://mp.weixin.qq.com/s/g3DxNO_3aYI4g26gQ2Yvig",
+        "source": "公众号：火山引擎",
+        "source_name": "AI HOT"
       }
     },
     {
@@ -179,14 +299,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8033,
-      "importance": 0.8033,
-      "importance_score": 0.8033,
+      "score": 0.7985,
+      "importance": 0.7985,
+      "importance_score": 0.7985,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9564,
+        "recency": 0.9327,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -239,14 +359,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8033,
-      "importance": 0.8033,
-      "importance_score": 0.8033,
+      "score": 0.7985,
+      "importance": 0.7985,
+      "importance_score": 0.7985,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9564,
+        "recency": 0.9327,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -299,14 +419,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8033,
-      "importance": 0.8033,
-      "importance_score": 0.8033,
+      "score": 0.7985,
+      "importance": 0.7985,
+      "importance_score": 0.7985,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9564,
+        "recency": 0.9327,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -359,14 +479,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8033,
-      "importance": 0.8033,
-      "importance_score": 0.8033,
+      "score": 0.7985,
+      "importance": 0.7985,
+      "importance_score": 0.7985,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9564,
+        "recency": 0.9327,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -419,14 +539,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8033,
-      "importance": 0.8033,
-      "importance_score": 0.8033,
+      "score": 0.7985,
+      "importance": 0.7985,
+      "importance_score": 0.7985,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9564,
+        "recency": 0.9327,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -479,14 +599,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8033,
-      "importance": 0.8033,
-      "importance_score": 0.8033,
+      "score": 0.7985,
+      "importance": 0.7985,
+      "importance_score": 0.7985,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9564,
+        "recency": 0.9327,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -539,14 +659,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8033,
-      "importance": 0.8033,
-      "importance_score": 0.8033,
+      "score": 0.7985,
+      "importance": 0.7985,
+      "importance_score": 0.7985,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9564,
+        "recency": 0.9327,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -599,14 +719,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8033,
-      "importance": 0.8033,
-      "importance_score": 0.8033,
+      "score": 0.7985,
+      "importance": 0.7985,
+      "importance_score": 0.7985,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9564,
+        "recency": 0.9327,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -659,14 +779,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8033,
-      "importance": 0.8033,
-      "importance_score": 0.8033,
+      "score": 0.7985,
+      "importance": 0.7985,
+      "importance_score": 0.7985,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9564,
+        "recency": 0.9327,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -719,14 +839,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8033,
-      "importance": 0.8033,
-      "importance_score": 0.8033,
+      "score": 0.7985,
+      "importance": 0.7985,
+      "importance_score": 0.7985,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9564,
+        "recency": 0.9327,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -779,14 +899,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8033,
-      "importance": 0.8033,
-      "importance_score": 0.8033,
+      "score": 0.7985,
+      "importance": 0.7985,
+      "importance_score": 0.7985,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9564,
+        "recency": 0.9327,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -839,14 +959,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8033,
-      "importance": 0.8033,
-      "importance_score": 0.8033,
+      "score": 0.7985,
+      "importance": 0.7985,
+      "importance_score": 0.7985,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9564,
+        "recency": 0.9327,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -899,14 +1019,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8033,
-      "importance": 0.8033,
-      "importance_score": 0.8033,
+      "score": 0.7985,
+      "importance": 0.7985,
+      "importance_score": 0.7985,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9564,
+        "recency": 0.9327,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -959,14 +1079,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8033,
-      "importance": 0.8033,
-      "importance_score": 0.8033,
+      "score": 0.7985,
+      "importance": 0.7985,
+      "importance_score": 0.7985,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9564,
+        "recency": 0.9327,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1019,14 +1139,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8033,
-      "importance": 0.8033,
-      "importance_score": 0.8033,
+      "score": 0.7985,
+      "importance": 0.7985,
+      "importance_score": 0.7985,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9564,
+        "recency": 0.9327,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1079,14 +1199,14 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8033,
-      "importance": 0.8033,
-      "importance_score": 0.8033,
+      "score": 0.7985,
+      "importance": 0.7985,
+      "importance_score": 0.7985,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9564,
+        "recency": 0.9327,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1100,126 +1220,6 @@
         "id": "9c03bab303b398b0fc4677a0009a8e16a3b7c29f",
         "title": "苹果 iPhone 国行机型升级 iOS 27 后推出 AI 壁纸图功能",
         "url": "https://www.aibase.com/news/28796",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_704288fa157b",
-      "title": "讯飞星火医疗大模型 V3.5 正式亮相",
-      "url": "https://www.aibase.com/news/28800",
-      "primary_url": "https://www.aibase.com/news/28800",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "8eaf7354f1f4c5c568c49ffdb4acb0ad6386641d",
-          "title": "讯飞星火医疗大模型 V3.5 正式亮相",
-          "url": "https://www.aibase.com/news/28800",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-10T04:15:10.417146Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "8eaf7354f1f4c5c568c49ffdb4acb0ad6386641d",
-          "title": "讯飞星火医疗大模型 V3.5 正式亮相",
-          "url": "https://www.aibase.com/news/28800",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-10T04:15:10.417146Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8033,
-      "importance": 0.8033,
-      "importance_score": 0.8033,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9564,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-10T04:15:10.417146Z",
-      "latest_at": "2026-06-10T04:15:10.417146Z",
-      "primary_item": {
-        "id": "8eaf7354f1f4c5c568c49ffdb4acb0ad6386641d",
-        "title": "讯飞星火医疗大模型 V3.5 正式亮相",
-        "url": "https://www.aibase.com/news/28800",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_2639c0284d79",
-      "title": "谷歌下调 Google AI Plus 月费至4.99美元，存储空间翻倍至400GB",
-      "url": "https://www.aibase.com/news/28792",
-      "primary_url": "https://www.aibase.com/news/28792",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "fdc9ef1492cb78a4ba5590afa9bcd53ecf32e14b",
-          "title": "谷歌下调 Google AI Plus 月费至4.99美元，存储空间翻倍至400GB",
-          "url": "https://www.aibase.com/news/28792",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-10T04:15:10.417146Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "fdc9ef1492cb78a4ba5590afa9bcd53ecf32e14b",
-          "title": "谷歌下调 Google AI Plus 月费至4.99美元，存储空间翻倍至400GB",
-          "url": "https://www.aibase.com/news/28792",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-06-10T04:15:10.417146Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8033,
-      "importance": 0.8033,
-      "importance_score": 0.8033,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9564,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-10T04:15:10.417146Z",
-      "latest_at": "2026-06-10T04:15:10.417146Z",
-      "primary_item": {
-        "id": "fdc9ef1492cb78a4ba5590afa9bcd53ecf32e14b",
-        "title": "谷歌下调 Google AI Plus 月费至4.99美元，存储空间翻倍至400GB",
-        "url": "https://www.aibase.com/news/28792",
         "source": "AIbase",
         "source_name": "AIbase"
       }
