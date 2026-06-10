@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-10T05:16:50.130973Z",
-  "source_generated_at": "2026-06-10T04:15:10.417146Z",
+  "generated_at": "2026-06-10T05:19:20.293053Z",
+  "source_generated_at": "2026-06-10T05:17:58.225321Z",
   "input_kind": "stories-merged",
   "domain": "ai_catalyst",
   "display_name": "AI产业催化",
-  "total_input_stories": 800,
-  "total_catalyst_stories": 143,
+  "total_input_stories": 801,
+  "total_catalyst_stories": 144,
   "track_counts": {
     "ai_application": 57,
-    "compute": 51,
+    "compute": 52,
     "edge_ai": 2,
     "memory_packaging": 6,
     "optical": 2,
@@ -24,8 +24,8 @@
       "source_count": 2,
       "latest_at": "2026-06-09T16:00:00Z",
       "earliest_at": "2026-06-09T16:00:00Z",
-      "ai_story_score": 0.8079,
-      "investment_score": 0.4953,
+      "ai_story_score": 0.7992,
+      "investment_score": 0.4922,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L1",
@@ -104,8 +104,8 @@
       "source_count": 3,
       "latest_at": "2026-06-09T10:46:19Z",
       "earliest_at": "2026-06-09T10:46:19Z",
-      "ai_story_score": 0.7893,
-      "investment_score": 0.4763,
+      "ai_story_score": 0.7806,
+      "investment_score": 0.4732,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L1",
@@ -191,8 +191,8 @@
       "source_count": 2,
       "latest_at": "2026-06-09T14:02:33Z",
       "earliest_at": "2026-06-09T14:02:33Z",
-      "ai_story_score": 0.7856,
-      "investment_score": 0.4625,
+      "ai_story_score": 0.7769,
+      "investment_score": 0.4594,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L1",
@@ -272,8 +272,8 @@
       "source_count": 2,
       "latest_at": "2026-06-09T14:10:19Z",
       "earliest_at": "2026-06-09T14:10:19Z",
-      "ai_story_score": 0.7687,
-      "investment_score": 0.4565,
+      "ai_story_score": 0.7599,
+      "investment_score": 0.4535,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L1",
@@ -351,8 +351,8 @@
       "source_count": 2,
       "latest_at": "2026-06-10T04:15:10.417146Z",
       "earliest_at": "2026-06-10T04:15:10.417146Z",
-      "ai_story_score": 0.837,
-      "investment_score": 0.4554,
+      "ai_story_score": 0.8283,
+      "investment_score": 0.4524,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -428,8 +428,8 @@
       "source_count": 2,
       "latest_at": "2026-06-09T22:18:10.868000Z",
       "earliest_at": "2026-06-09T21:24:50Z",
-      "ai_story_score": 0.78,
-      "investment_score": 0.4355,
+      "ai_story_score": 0.7713,
+      "investment_score": 0.4325,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -505,8 +505,8 @@
       "source_count": 2,
       "latest_at": "2026-06-09T19:38:28Z",
       "earliest_at": "2026-06-09T19:38:28Z",
-      "ai_story_score": 0.7652,
-      "investment_score": 0.4303,
+      "ai_story_score": 0.7565,
+      "investment_score": 0.4273,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -582,8 +582,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T15:00:00Z",
       "earliest_at": "2026-06-09T15:00:00Z",
-      "ai_story_score": 0.5116,
-      "investment_score": 0.4291,
+      "ai_story_score": 0.5028,
+      "investment_score": 0.426,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -673,8 +673,8 @@
       "source_count": 2,
       "latest_at": "2026-06-09T17:17:21Z",
       "earliest_at": "2026-06-09T17:11:22Z",
-      "ai_story_score": 0.7448,
-      "investment_score": 0.4232,
+      "ai_story_score": 0.7361,
+      "investment_score": 0.4201,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -749,8 +749,8 @@
       "source_count": 2,
       "latest_at": "2026-06-09T15:57:37.568000Z",
       "earliest_at": "2026-06-09T15:32:09Z",
-      "ai_story_score": 0.731,
-      "investment_score": 0.4183,
+      "ai_story_score": 0.7223,
+      "investment_score": 0.4153,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -825,8 +825,8 @@
       "source_count": 3,
       "latest_at": "2026-06-10T00:19:51.943187Z",
       "earliest_at": "2026-06-09T23:35:17Z",
-      "ai_story_score": 0.5403,
-      "investment_score": 0.4141,
+      "ai_story_score": 0.5316,
+      "investment_score": 0.4111,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -910,8 +910,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T12:30:02Z",
       "earliest_at": "2026-06-09T12:30:02Z",
-      "ai_story_score": 0.3917,
-      "investment_score": 0.4121,
+      "ai_story_score": 0.383,
+      "investment_score": 0.409,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -1002,8 +1002,8 @@
       "source_count": 1,
       "latest_at": "2026-06-10T04:15:10.417146Z",
       "earliest_at": "2026-06-10T04:15:10.417146Z",
-      "ai_story_score": 0.812,
-      "investment_score": 0.4092,
+      "ai_story_score": 0.8033,
+      "investment_score": 0.4062,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -1069,8 +1069,8 @@
       "source_count": 1,
       "latest_at": "2026-06-10T04:15:10.417146Z",
       "earliest_at": "2026-06-10T04:15:10.417146Z",
-      "ai_story_score": 0.812,
-      "investment_score": 0.4092,
+      "ai_story_score": 0.8033,
+      "investment_score": 0.4062,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -1136,8 +1136,8 @@
       "source_count": 1,
       "latest_at": "2026-06-10T04:15:10.417146Z",
       "earliest_at": "2026-06-10T04:15:10.417146Z",
-      "ai_story_score": 0.812,
-      "investment_score": 0.4092,
+      "ai_story_score": 0.8033,
+      "investment_score": 0.4062,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -1203,8 +1203,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T17:39:26Z",
       "earliest_at": "2026-06-09T17:39:26Z",
-      "ai_story_score": 0.7967,
-      "investment_score": 0.4038,
+      "ai_story_score": 0.788,
+      "investment_score": 0.4008,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L1",
@@ -1271,8 +1271,8 @@
       "source_count": 1,
       "latest_at": "2026-06-10T01:46:00Z",
       "earliest_at": "2026-06-10T01:46:00Z",
-      "ai_story_score": 0.7913,
-      "investment_score": 0.402,
+      "ai_story_score": 0.7826,
+      "investment_score": 0.3989,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -1338,8 +1338,8 @@
       "source_count": 1,
       "latest_at": "2026-06-10T00:42:27Z",
       "earliest_at": "2026-06-10T00:42:27Z",
-      "ai_story_score": 0.7825,
-      "investment_score": 0.3989,
+      "ai_story_score": 0.7737,
+      "investment_score": 0.3958,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -1405,8 +1405,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T21:06:26Z",
       "earliest_at": "2026-06-09T21:06:26Z",
-      "ai_story_score": 0.7525,
-      "investment_score": 0.3884,
+      "ai_story_score": 0.7437,
+      "investment_score": 0.3853,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -1448,8 +1448,7 @@
         "是否只是概念热度而缺少业绩兑现路径"
       ],
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "sources": [
         {
@@ -1472,8 +1471,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T19:51:04Z",
       "earliest_at": "2026-06-09T19:51:04Z",
-      "ai_story_score": 0.742,
-      "investment_score": 0.3847,
+      "ai_story_score": 0.7333,
+      "investment_score": 0.3817,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -1538,8 +1537,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T08:37:48Z",
       "earliest_at": "2026-06-09T08:37:48Z",
-      "ai_story_score": 0.6485,
-      "investment_score": 0.377,
+      "ai_story_score": 0.6398,
+      "investment_score": 0.3739,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -1605,8 +1604,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T07:17:16.731000Z",
       "earliest_at": "2026-06-09T07:17:16.731000Z",
-      "ai_story_score": 0.3483,
-      "investment_score": 0.3719,
+      "ai_story_score": 0.3396,
+      "investment_score": 0.3689,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -1696,8 +1695,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T07:21:22Z",
       "earliest_at": "2026-06-09T07:21:22Z",
-      "ai_story_score": 0.6869,
-      "investment_score": 0.3654,
+      "ai_story_score": 0.6781,
+      "investment_score": 0.3623,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L1",
@@ -1763,8 +1762,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T07:12:54Z",
       "earliest_at": "2026-06-09T07:12:54Z",
-      "ai_story_score": 0.6857,
-      "investment_score": 0.365,
+      "ai_story_score": 0.677,
+      "investment_score": 0.3619,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L1",
@@ -1818,72 +1817,6 @@
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
           "published_at": "2026-06-09T07:12:54Z"
-        }
-      ]
-    },
-    {
-      "story_id": "story_8740ee2be148",
-      "title": "腾讯混元发布UniRL：统一多模态强化学习基础设施",
-      "url": "https://x.com/TencentHunyuan/status/2064312869827809702",
-      "source": "X：腾讯混元 (@TencentHunyuan)",
-      "source_name": "AI HOT",
-      "source_count": 1,
-      "latest_at": "2026-06-09T11:45:15Z",
-      "earliest_at": "2026-06-09T11:45:15Z",
-      "ai_story_score": 0.6745,
-      "investment_score": 0.3611,
-      "investment_domain": "ai_catalyst",
-      "investment_role": "demand_side_catalyst",
-      "evidence_level": "L0",
-      "tracks": [
-        {
-          "id": "ai_application",
-          "label": "AI应用与内容工具",
-          "matched_keywords": [
-            "多模态"
-          ],
-          "chain_nodes": [
-            "AI应用软件",
-            "内容生成",
-            "游戏工具链",
-            "企业服务"
-          ],
-          "a_share_themes": [
-            "AI应用",
-            "传媒游戏",
-            "软件服务"
-          ]
-        }
-      ],
-      "chain_nodes": [
-        "AI应用软件",
-        "内容生成",
-        "游戏工具链",
-        "企业服务"
-      ],
-      "a_share_themes": [
-        "AI应用",
-        "传媒游戏",
-        "软件服务"
-      ],
-      "validation_needed": [
-        "是否有官方公告、订单、资本开支或财务数据验证",
-        "是否能映射到具体产业链节点和上市公司主营业务",
-        "是否已经在板块涨跌幅、成交量或资金流中反映",
-        "是否只是概念热度而缺少业绩兑现路径"
-      ],
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "sources": [
-        {
-          "id": "d2496534cb9eda8be855e2515d6cdf5ba589aac2",
-          "title": "腾讯混元发布UniRL：统一多模态强化学习基础设施",
-          "url": "https://x.com/TencentHunyuan/status/2064312869827809702",
-          "source": "X：腾讯混元 (@TencentHunyuan)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-09T11:45:15Z"
         }
       ]
     },
@@ -1955,6 +1888,72 @@
       ]
     },
     {
+      "story_id": "story_8740ee2be148",
+      "title": "腾讯混元发布UniRL：统一多模态强化学习基础设施",
+      "url": "https://x.com/TencentHunyuan/status/2064312869827809702",
+      "source": "X：腾讯混元 (@TencentHunyuan)",
+      "source_name": "AI HOT",
+      "source_count": 1,
+      "latest_at": "2026-06-09T11:45:15Z",
+      "earliest_at": "2026-06-09T11:45:15Z",
+      "ai_story_score": 0.6658,
+      "investment_score": 0.358,
+      "investment_domain": "ai_catalyst",
+      "investment_role": "demand_side_catalyst",
+      "evidence_level": "L0",
+      "tracks": [
+        {
+          "id": "ai_application",
+          "label": "AI应用与内容工具",
+          "matched_keywords": [
+            "多模态"
+          ],
+          "chain_nodes": [
+            "AI应用软件",
+            "内容生成",
+            "游戏工具链",
+            "企业服务"
+          ],
+          "a_share_themes": [
+            "AI应用",
+            "传媒游戏",
+            "软件服务"
+          ]
+        }
+      ],
+      "chain_nodes": [
+        "AI应用软件",
+        "内容生成",
+        "游戏工具链",
+        "企业服务"
+      ],
+      "a_share_themes": [
+        "AI应用",
+        "传媒游戏",
+        "软件服务"
+      ],
+      "validation_needed": [
+        "是否有官方公告、订单、资本开支或财务数据验证",
+        "是否能映射到具体产业链节点和上市公司主营业务",
+        "是否已经在板块涨跌幅、成交量或资金流中反映",
+        "是否只是概念热度而缺少业绩兑现路径"
+      ],
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "sources": [
+        {
+          "id": "d2496534cb9eda8be855e2515d6cdf5ba589aac2",
+          "title": "腾讯混元发布UniRL：统一多模态强化学习基础设施",
+          "url": "https://x.com/TencentHunyuan/status/2064312869827809702",
+          "source": "X：腾讯混元 (@TencentHunyuan)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-06-09T11:45:15Z"
+        }
+      ]
+    },
+    {
       "story_id": "story_b1a28004eeaa",
       "title": "模型量化：利用 NVIDIA TensorRT 将 FP8 检查点转变为高性能推理引擎 / Model Quantization: Turn FP8 Checkpoints into High-Performance Inference Engines with NVIDIA TensorRT",
       "url": "https://developer.nvidia.com/blog/model-quantization-turn-fp8-checkpoints-into-high-performance-inference-engines-with-nvidia-tensorrt",
@@ -1963,8 +1962,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T18:27:52Z",
       "earliest_at": "2026-06-09T18:27:52Z",
-      "ai_story_score": 0.5284,
-      "investment_score": 0.3599,
+      "ai_story_score": 0.5197,
+      "investment_score": 0.3569,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -2031,8 +2030,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T11:15:19.256794Z",
       "earliest_at": "2026-06-09T11:15:19.256794Z",
-      "ai_story_score": 0.6704,
-      "investment_score": 0.3596,
+      "ai_story_score": 0.6616,
+      "investment_score": 0.3566,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -2097,8 +2096,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T11:15:19.256794Z",
       "earliest_at": "2026-06-09T11:15:19.256794Z",
-      "ai_story_score": 0.6704,
-      "investment_score": 0.3596,
+      "ai_story_score": 0.6616,
+      "investment_score": 0.3566,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -2163,8 +2162,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T11:15:19.256794Z",
       "earliest_at": "2026-06-09T11:15:19.256794Z",
-      "ai_story_score": 0.6704,
-      "investment_score": 0.3596,
+      "ai_story_score": 0.6616,
+      "investment_score": 0.3566,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -2221,6 +2220,158 @@
       ]
     },
     {
+      "story_id": "story_d7b583f96f70",
+      "title": "何小鹏发内部信：本人亲自带队 最后 200 天冲刺机器人量产",
+      "url": "https://finance.sina.com.cn/stock/t/2026-06-10/doc-iniawxzx1313080.shtml",
+      "source": "Readhub · AI",
+      "source_name": "TopHub",
+      "source_count": 2,
+      "latest_at": "2026-06-10T05:17:58.225321Z",
+      "earliest_at": "2026-06-10T04:15:10.417146Z",
+      "ai_story_score": 0.548,
+      "investment_score": 0.3543,
+      "investment_domain": "ai_catalyst",
+      "investment_role": "demand_side_catalyst",
+      "evidence_level": "L0",
+      "tracks": [
+        {
+          "id": "robotics",
+          "label": "机器人与具身智能",
+          "matched_keywords": [
+            "机器人"
+          ],
+          "chain_nodes": [
+            "机器人本体",
+            "传感器",
+            "执行器",
+            "减速器",
+            "伺服电机"
+          ],
+          "a_share_themes": [
+            "机器人",
+            "具身智能",
+            "工业自动化"
+          ]
+        }
+      ],
+      "chain_nodes": [
+        "机器人本体",
+        "传感器",
+        "执行器",
+        "减速器",
+        "伺服电机"
+      ],
+      "a_share_themes": [
+        "机器人",
+        "具身智能",
+        "工业自动化"
+      ],
+      "validation_needed": [
+        "是否有官方公告、订单、资本开支或财务数据验证",
+        "是否能映射到具体产业链节点和上市公司主营业务",
+        "是否已经在板块涨跌幅、成交量或资金流中反映",
+        "是否只是概念热度而缺少业绩兑现路径"
+      ],
+      "reasons": [
+        "multi_source"
+      ],
+      "sources": [
+        {
+          "id": "d3b47a7d1afe00f6dfffe661c818eb4813e649ef",
+          "title": "何小鹏发内部信：本人亲自带队 最后 200 天冲刺机器人量产",
+          "url": "https://finance.sina.com.cn/stock/t/2026-06-10/doc-iniawxzx1313080.shtml",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        },
+        {
+          "id": "9e4ea7b7266b7dfa3edbade2a029efb8b2f58c51",
+          "title": "何小鹏发内部信：本人亲自带队，最后 200 天冲刺机器人量产",
+          "url": "https://wallstreetcn.com/livenews/3117213",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ]
+    },
+    {
+      "story_id": "story_aa76522315cd",
+      "title": "Meta 与信实集团合作建设印度首个人工智能数据中心",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-10/meta-partners-with-reliance-on-its-first-ai-data-center-in-india",
+      "source": "www.bloomberg.com",
+      "source_name": "Buzzing",
+      "source_count": 2,
+      "latest_at": "2026-06-10T05:14:06.212000Z",
+      "earliest_at": "2026-06-10T04:09:53.975000Z",
+      "ai_story_score": 0.5475,
+      "investment_score": 0.3541,
+      "investment_domain": "ai_catalyst",
+      "investment_role": "demand_side_catalyst",
+      "evidence_level": "L0",
+      "tracks": [
+        {
+          "id": "compute",
+          "label": "算力基础设施",
+          "matched_keywords": [
+            "数据中心"
+          ],
+          "chain_nodes": [
+            "GPU",
+            "AI服务器",
+            "智算中心",
+            "云计算"
+          ],
+          "a_share_themes": [
+            "算力",
+            "AI服务器",
+            "数据中心"
+          ]
+        }
+      ],
+      "chain_nodes": [
+        "GPU",
+        "AI服务器",
+        "智算中心",
+        "云计算"
+      ],
+      "a_share_themes": [
+        "算力",
+        "AI服务器",
+        "数据中心"
+      ],
+      "validation_needed": [
+        "是否有官方公告、订单、资本开支或财务数据验证",
+        "是否能映射到具体产业链节点和上市公司主营业务",
+        "是否已经在板块涨跌幅、成交量或资金流中反映",
+        "是否只是概念热度而缺少业绩兑现路径"
+      ],
+      "reasons": [
+        "multi_source"
+      ],
+      "sources": [
+        {
+          "id": "d77ea5ae9104b942e224454708657394f7736fe2",
+          "title": "Meta 与信实集团合作建设印度首个人工智能数据中心",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-10/meta-partners-with-reliance-on-its-first-ai-data-center-in-india",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-10T05:14:06.212000Z"
+        },
+        {
+          "id": "fa2eb91cd36327bfb0b05065cdca4947622433f7",
+          "title": "Meta 与信实集团合作，在印度建设其首个人工智能数据中心",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-10/meta-partners-with-reliance-on-its-first-ai-data-center-in-india",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-10T04:09:53.975000Z"
+        }
+      ]
+    },
+    {
       "story_id": "story_cc79ea6f7b31",
       "title": "Multi-Agent+工作流如何打造更泛化的智能体应用",
       "url": "https://www.infoq.cn/video/mU2DUpqtlo7HvmNTxxZk",
@@ -2229,8 +2380,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T16:36:46Z",
       "earliest_at": "2026-06-09T16:36:46Z",
-      "ai_story_score": 0.516,
-      "investment_score": 0.3556,
+      "ai_story_score": 0.5073,
+      "investment_score": 0.3526,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -2289,6 +2440,83 @@
       ]
     },
     {
+      "story_id": "story_c4bd331a5a43",
+      "title": "安巴尼支持的机器人初创公司寻求1亿美元融资，力争在印度市场占据领先地位",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-10/ambani-backed-robot-startup-seeks-100-million-to-take-on-china",
+      "source": "www.bloomberg.com",
+      "source_name": "Buzzing",
+      "source_count": 2,
+      "latest_at": "2026-06-10T04:26:08.849000Z",
+      "earliest_at": "2026-06-10T04:09:53.972000Z",
+      "ai_story_score": 0.5408,
+      "investment_score": 0.3518,
+      "investment_domain": "ai_catalyst",
+      "investment_role": "demand_side_catalyst",
+      "evidence_level": "L0",
+      "tracks": [
+        {
+          "id": "robotics",
+          "label": "机器人与具身智能",
+          "matched_keywords": [
+            "机器人"
+          ],
+          "chain_nodes": [
+            "机器人本体",
+            "传感器",
+            "执行器",
+            "减速器",
+            "伺服电机"
+          ],
+          "a_share_themes": [
+            "机器人",
+            "具身智能",
+            "工业自动化"
+          ]
+        }
+      ],
+      "chain_nodes": [
+        "机器人本体",
+        "传感器",
+        "执行器",
+        "减速器",
+        "伺服电机"
+      ],
+      "a_share_themes": [
+        "机器人",
+        "具身智能",
+        "工业自动化"
+      ],
+      "validation_needed": [
+        "是否有官方公告、订单、资本开支或财务数据验证",
+        "是否能映射到具体产业链节点和上市公司主营业务",
+        "是否已经在板块涨跌幅、成交量或资金流中反映",
+        "是否只是概念热度而缺少业绩兑现路径"
+      ],
+      "reasons": [
+        "multi_source"
+      ],
+      "sources": [
+        {
+          "id": "5df5c8c18e44815ff132d4d5d18ccde0063f9ae2",
+          "title": "安巴尼支持的机器人初创公司寻求1亿美元融资，力争在印度市场占据领先地位",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-10/ambani-backed-robot-startup-seeks-100-million-to-take-on-china",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-10T04:26:08.849000Z"
+        },
+        {
+          "id": "482d8bfd29abfdf8eaefa9a495c8ad64e2916721",
+          "title": "安巴尼支持的机器人初创公司寻求1亿美元融资，以挑战中国市场",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-10/ambani-backed-robot-startup-seeks-100-million-to-take-on-china",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-10T04:09:53.972000Z"
+        }
+      ]
+    },
+    {
       "story_id": "story_20f4ca782836",
       "title": "OpenAI据悉正在洽谈租赁俄亥俄州10GW数据中心",
       "url": "https://www.36kr.com/newsflashes/3846737561012742",
@@ -2297,8 +2525,8 @@
       "source_count": 2,
       "latest_at": "2026-06-10T03:08:02.915000Z",
       "earliest_at": "2026-06-10T02:29:48Z",
-      "ai_story_score": 0.5387,
-      "investment_score": 0.351,
+      "ai_story_score": 0.53,
+      "investment_score": 0.348,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -2372,8 +2600,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T07:49:47.617244Z",
       "earliest_at": "2026-06-09T07:49:47.617244Z",
-      "ai_story_score": 0.6418,
-      "investment_score": 0.3496,
+      "ai_story_score": 0.6331,
+      "investment_score": 0.3466,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -2438,8 +2666,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T07:49:47.617244Z",
       "earliest_at": "2026-06-09T07:49:47.617244Z",
-      "ai_story_score": 0.6418,
-      "investment_score": 0.3496,
+      "ai_story_score": 0.6331,
+      "investment_score": 0.3466,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -2504,8 +2732,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T07:49:47.617244Z",
       "earliest_at": "2026-06-09T07:49:47.617244Z",
-      "ai_story_score": 0.6418,
-      "investment_score": 0.3496,
+      "ai_story_score": 0.6331,
+      "investment_score": 0.3466,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -2570,8 +2798,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T07:49:47.617244Z",
       "earliest_at": "2026-06-09T07:49:47.617244Z",
-      "ai_story_score": 0.6418,
-      "investment_score": 0.3496,
+      "ai_story_score": 0.6331,
+      "investment_score": 0.3466,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -2636,8 +2864,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T07:49:47.617244Z",
       "earliest_at": "2026-06-09T07:49:47.617244Z",
-      "ai_story_score": 0.6418,
-      "investment_score": 0.3496,
+      "ai_story_score": 0.6331,
+      "investment_score": 0.3466,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -2702,8 +2930,8 @@
       "source_count": 1,
       "latest_at": "2026-06-10T00:19:51.943187Z",
       "earliest_at": "2026-06-10T00:19:51.943187Z",
-      "ai_story_score": 0.4903,
-      "investment_score": 0.3466,
+      "ai_story_score": 0.4816,
+      "investment_score": 0.3436,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -2772,8 +3000,8 @@
       "source_count": 2,
       "latest_at": "2026-06-10T00:19:51.943187Z",
       "earliest_at": "2026-06-10T00:12:59Z",
-      "ai_story_score": 0.5153,
-      "investment_score": 0.3429,
+      "ai_story_score": 0.5066,
+      "investment_score": 0.3398,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -2847,8 +3075,8 @@
       "source_count": 2,
       "latest_at": "2026-06-09T23:50:11.073000Z",
       "earliest_at": "2026-06-09T23:50:02Z",
-      "ai_story_score": 0.5112,
-      "investment_score": 0.3414,
+      "ai_story_score": 0.5025,
+      "investment_score": 0.3384,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -2922,8 +3150,8 @@
       "source_count": 2,
       "latest_at": "2026-06-09T22:00:00Z",
       "earliest_at": "2026-06-09T16:16:12Z",
-      "ai_story_score": 0.4959,
-      "investment_score": 0.3361,
+      "ai_story_score": 0.4872,
+      "investment_score": 0.333,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -2999,8 +3227,8 @@
       "source_count": 2,
       "latest_at": "2026-06-09T20:26:01.496000Z",
       "earliest_at": "2026-06-09T16:13:33.953000Z",
-      "ai_story_score": 0.4828,
-      "investment_score": 0.3315,
+      "ai_story_score": 0.4741,
+      "investment_score": 0.3284,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -3076,8 +3304,8 @@
       "source_count": 2,
       "latest_at": "2026-06-09T19:13:23.075524Z",
       "earliest_at": "2026-06-09T16:50:04Z",
-      "ai_story_score": 0.4728,
-      "investment_score": 0.328,
+      "ai_story_score": 0.464,
+      "investment_score": 0.3249,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -3151,8 +3379,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T23:40:00Z",
       "earliest_at": "2026-06-09T23:40:00Z",
-      "ai_story_score": 0.4848,
-      "investment_score": 0.3197,
+      "ai_story_score": 0.4761,
+      "investment_score": 0.3166,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -3220,8 +3448,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T22:25:02Z",
       "earliest_at": "2026-06-09T22:25:02Z",
-      "ai_story_score": 0.4744,
-      "investment_score": 0.316,
+      "ai_story_score": 0.4656,
+      "investment_score": 0.313,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -3287,8 +3515,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T22:05:01Z",
       "earliest_at": "2026-06-09T22:05:01Z",
-      "ai_story_score": 0.4716,
-      "investment_score": 0.3151,
+      "ai_story_score": 0.4629,
+      "investment_score": 0.312,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -3354,8 +3582,8 @@
       "source_count": 2,
       "latest_at": "2026-06-09T13:51:25.929000Z",
       "earliest_at": "2026-06-09T13:05:49Z",
-      "ai_story_score": 0.428,
-      "investment_score": 0.3123,
+      "ai_story_score": 0.4193,
+      "investment_score": 0.3093,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -3429,8 +3657,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T19:00:00Z",
       "earliest_at": "2026-06-09T19:00:00Z",
-      "ai_story_score": 0.5329,
-      "investment_score": 0.3115,
+      "ai_story_score": 0.5242,
+      "investment_score": 0.3085,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -3487,6 +3715,72 @@
       ]
     },
     {
+      "story_id": "story_104c5a041714",
+      "title": "DeepSeek V4 推理性能分析：NV 华为最优 AMD 实现 100x 提升 -- 快科技 -- 科技改变未来",
+      "url": "https://news.mydrivers.com/1/1128/1128533.htm",
+      "source": "Readhub · AI",
+      "source_name": "TopHub",
+      "source_count": 1,
+      "latest_at": "2026-06-10T05:17:58.225321Z",
+      "earliest_at": "2026-06-10T05:17:58.225321Z",
+      "ai_story_score": 0.523,
+      "investment_score": 0.308,
+      "investment_domain": "ai_catalyst",
+      "investment_role": "demand_side_catalyst",
+      "evidence_level": "L0",
+      "tracks": [
+        {
+          "id": "compute",
+          "label": "算力基础设施",
+          "matched_keywords": [
+            "推理"
+          ],
+          "chain_nodes": [
+            "GPU",
+            "AI服务器",
+            "智算中心",
+            "云计算"
+          ],
+          "a_share_themes": [
+            "算力",
+            "AI服务器",
+            "数据中心"
+          ]
+        }
+      ],
+      "chain_nodes": [
+        "GPU",
+        "AI服务器",
+        "智算中心",
+        "云计算"
+      ],
+      "a_share_themes": [
+        "算力",
+        "AI服务器",
+        "数据中心"
+      ],
+      "validation_needed": [
+        "是否有官方公告、订单、资本开支或财务数据验证",
+        "是否能映射到具体产业链节点和上市公司主营业务",
+        "是否已经在板块涨跌幅、成交量或资金流中反映",
+        "是否只是概念热度而缺少业绩兑现路径"
+      ],
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "sources": [
+        {
+          "id": "6312a027de48e619afe0680c59d7b9ef48f3f729",
+          "title": "DeepSeek V4 推理性能分析：NV 华为最优 AMD 实现 100x 提升 -- 快科技 -- 科技改变未来",
+          "url": "https://news.mydrivers.com/1/1128/1128533.htm",
+          "source": "Readhub · AI",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
+        }
+      ]
+    },
+    {
       "story_id": "story_0719099677d1",
       "title": "华为刚刚发布了一个重大的人工智能芯片惊喜——但英伟达确实应该关注其竞争对手的其他重大新闻 / Huawei just dropped a major AI chip surprise — but Nvidia should really be paying attention to the other big news from its rival",
       "url": "https://www.techradar.com/pro/huawei-just-dropped-a-major-ai-chip-surprise-but-nvidia-should-be-paying-attention-to-the-other-news",
@@ -3495,8 +3789,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T20:10:00Z",
       "earliest_at": "2026-06-09T20:10:00Z",
-      "ai_story_score": 0.4556,
-      "investment_score": 0.3095,
+      "ai_story_score": 0.4469,
+      "investment_score": 0.3064,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -3562,8 +3856,8 @@
       "source_count": 1,
       "latest_at": "2026-06-10T04:15:10.417146Z",
       "earliest_at": "2026-06-10T04:15:10.417146Z",
-      "ai_story_score": 0.523,
-      "investment_score": 0.308,
+      "ai_story_score": 0.5143,
+      "investment_score": 0.305,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -3622,74 +3916,6 @@
       ]
     },
     {
-      "story_id": "story_d7b583f96f70",
-      "title": "何小鹏发内部信：本人亲自带队，最后 200 天冲刺机器人量产",
-      "url": "https://wallstreetcn.com/livenews/3117213",
-      "source": "Readhub · AI",
-      "source_name": "TopHub",
-      "source_count": 1,
-      "latest_at": "2026-06-10T04:15:10.417146Z",
-      "earliest_at": "2026-06-10T04:15:10.417146Z",
-      "ai_story_score": 0.523,
-      "investment_score": 0.308,
-      "investment_domain": "ai_catalyst",
-      "investment_role": "demand_side_catalyst",
-      "evidence_level": "L0",
-      "tracks": [
-        {
-          "id": "robotics",
-          "label": "机器人与具身智能",
-          "matched_keywords": [
-            "机器人"
-          ],
-          "chain_nodes": [
-            "机器人本体",
-            "传感器",
-            "执行器",
-            "减速器",
-            "伺服电机"
-          ],
-          "a_share_themes": [
-            "机器人",
-            "具身智能",
-            "工业自动化"
-          ]
-        }
-      ],
-      "chain_nodes": [
-        "机器人本体",
-        "传感器",
-        "执行器",
-        "减速器",
-        "伺服电机"
-      ],
-      "a_share_themes": [
-        "机器人",
-        "具身智能",
-        "工业自动化"
-      ],
-      "validation_needed": [
-        "是否有官方公告、订单、资本开支或财务数据验证",
-        "是否能映射到具体产业链节点和上市公司主营业务",
-        "是否已经在板块涨跌幅、成交量或资金流中反映",
-        "是否只是概念热度而缺少业绩兑现路径"
-      ],
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "sources": [
-        {
-          "id": "9e4ea7b7266b7dfa3edbade2a029efb8b2f58c51",
-          "title": "何小鹏发内部信：本人亲自带队，最后 200 天冲刺机器人量产",
-          "url": "https://wallstreetcn.com/livenews/3117213",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ]
-    },
-    {
       "story_id": "story_7141dbdff6f8",
       "title": "永久免费，美团AI浏览器来了，10多个顶级模型帮你干活，还附送Agent外挂",
       "url": "https://www.36kr.com/p/3845982766680581",
@@ -3698,8 +3924,8 @@
       "source_count": 1,
       "latest_at": "2026-06-10T04:15:10.417146Z",
       "earliest_at": "2026-06-10T04:15:10.417146Z",
-      "ai_story_score": 0.523,
-      "investment_score": 0.308,
+      "ai_story_score": 0.5143,
+      "investment_score": 0.305,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -3756,140 +3982,6 @@
       ]
     },
     {
-      "story_id": "story_c4bd331a5a43",
-      "title": "安巴尼支持的机器人初创公司寻求1亿美元融资，以挑战中国市场",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-10/ambani-backed-robot-startup-seeks-100-million-to-take-on-china",
-      "source": "www.bloomberg.com",
-      "source_name": "Buzzing",
-      "source_count": 1,
-      "latest_at": "2026-06-10T04:09:53.972000Z",
-      "earliest_at": "2026-06-10T04:09:53.972000Z",
-      "ai_story_score": 0.5223,
-      "investment_score": 0.3078,
-      "investment_domain": "ai_catalyst",
-      "investment_role": "demand_side_catalyst",
-      "evidence_level": "L0",
-      "tracks": [
-        {
-          "id": "robotics",
-          "label": "机器人与具身智能",
-          "matched_keywords": [
-            "机器人"
-          ],
-          "chain_nodes": [
-            "机器人本体",
-            "传感器",
-            "执行器",
-            "减速器",
-            "伺服电机"
-          ],
-          "a_share_themes": [
-            "机器人",
-            "具身智能",
-            "工业自动化"
-          ]
-        }
-      ],
-      "chain_nodes": [
-        "机器人本体",
-        "传感器",
-        "执行器",
-        "减速器",
-        "伺服电机"
-      ],
-      "a_share_themes": [
-        "机器人",
-        "具身智能",
-        "工业自动化"
-      ],
-      "validation_needed": [
-        "是否有官方公告、订单、资本开支或财务数据验证",
-        "是否能映射到具体产业链节点和上市公司主营业务",
-        "是否已经在板块涨跌幅、成交量或资金流中反映",
-        "是否只是概念热度而缺少业绩兑现路径"
-      ],
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "sources": [
-        {
-          "id": "482d8bfd29abfdf8eaefa9a495c8ad64e2916721",
-          "title": "安巴尼支持的机器人初创公司寻求1亿美元融资，以挑战中国市场",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-10/ambani-backed-robot-startup-seeks-100-million-to-take-on-china",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-10T04:09:53.972000Z"
-        }
-      ]
-    },
-    {
-      "story_id": "story_aa76522315cd",
-      "title": "Meta 与信实集团合作，在印度建设其首个人工智能数据中心",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-10/meta-partners-with-reliance-on-its-first-ai-data-center-in-india",
-      "source": "www.bloomberg.com",
-      "source_name": "Buzzing",
-      "source_count": 1,
-      "latest_at": "2026-06-10T04:09:53.975000Z",
-      "earliest_at": "2026-06-10T04:09:53.975000Z",
-      "ai_story_score": 0.5223,
-      "investment_score": 0.3078,
-      "investment_domain": "ai_catalyst",
-      "investment_role": "demand_side_catalyst",
-      "evidence_level": "L0",
-      "tracks": [
-        {
-          "id": "compute",
-          "label": "算力基础设施",
-          "matched_keywords": [
-            "数据中心"
-          ],
-          "chain_nodes": [
-            "GPU",
-            "AI服务器",
-            "智算中心",
-            "云计算"
-          ],
-          "a_share_themes": [
-            "算力",
-            "AI服务器",
-            "数据中心"
-          ]
-        }
-      ],
-      "chain_nodes": [
-        "GPU",
-        "AI服务器",
-        "智算中心",
-        "云计算"
-      ],
-      "a_share_themes": [
-        "算力",
-        "AI服务器",
-        "数据中心"
-      ],
-      "validation_needed": [
-        "是否有官方公告、订单、资本开支或财务数据验证",
-        "是否能映射到具体产业链节点和上市公司主营业务",
-        "是否已经在板块涨跌幅、成交量或资金流中反映",
-        "是否只是概念热度而缺少业绩兑现路径"
-      ],
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "sources": [
-        {
-          "id": "fa2eb91cd36327bfb0b05065cdca4947622433f7",
-          "title": "Meta 与信实集团合作，在印度建设其首个人工智能数据中心",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-10/meta-partners-with-reliance-on-its-first-ai-data-center-in-india",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-10T04:09:53.975000Z"
-        }
-      ]
-    },
-    {
       "story_id": "story_59018494754b",
       "title": "IPO前夜喜提“厚礼”！谷歌为Gemini租用SpaceX 11万块GPU，马斯克每月躺赚9.2亿美元",
       "url": "https://www.infoq.cn/article/rUdJM6SDR5t6BFhA4xi7",
@@ -3898,8 +3990,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T15:58:53Z",
       "earliest_at": "2026-06-09T15:58:53Z",
-      "ai_story_score": 0.5197,
-      "investment_score": 0.3069,
+      "ai_story_score": 0.511,
+      "investment_score": 0.3039,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -3964,8 +4056,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T19:17:53Z",
       "earliest_at": "2026-06-09T19:17:53Z",
-      "ai_story_score": 0.4484,
-      "investment_score": 0.3069,
+      "ai_story_score": 0.4397,
+      "investment_score": 0.3039,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -4033,8 +4125,8 @@
       "source_count": 2,
       "latest_at": "2026-06-09T11:45:36.556000Z",
       "earliest_at": "2026-06-09T11:30:03Z",
-      "ai_story_score": 0.4106,
-      "investment_score": 0.3062,
+      "ai_story_score": 0.4018,
+      "investment_score": 0.3031,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -4108,8 +4200,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T10:07:04Z",
       "earliest_at": "2026-06-09T10:07:04Z",
-      "ai_story_score": 0.3719,
-      "investment_score": 0.3052,
+      "ai_story_score": 0.3632,
+      "investment_score": 0.3021,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -4176,8 +4268,8 @@
       "source_count": 1,
       "latest_at": "2026-06-10T03:08:02.915000Z",
       "earliest_at": "2026-06-10T03:08:02.915000Z",
-      "ai_story_score": 0.5137,
-      "investment_score": 0.3048,
+      "ai_story_score": 0.505,
+      "investment_score": 0.3018,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -4242,8 +4334,8 @@
       "source_count": 1,
       "latest_at": "2026-06-10T03:08:02.915000Z",
       "earliest_at": "2026-06-10T03:08:02.915000Z",
-      "ai_story_score": 0.5137,
-      "investment_score": 0.3048,
+      "ai_story_score": 0.505,
+      "investment_score": 0.3018,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -4308,8 +4400,8 @@
       "source_count": 2,
       "latest_at": "2026-06-09T11:15:19.256794Z",
       "earliest_at": "2026-06-09T11:15:19.256794Z",
-      "ai_story_score": 0.4064,
-      "investment_score": 0.3047,
+      "ai_story_score": 0.3976,
+      "investment_score": 0.3017,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -4383,8 +4475,8 @@
       "source_count": 2,
       "latest_at": "2026-06-09T11:15:19.256794Z",
       "earliest_at": "2026-06-09T11:15:19.256794Z",
-      "ai_story_score": 0.4064,
-      "investment_score": 0.3047,
+      "ai_story_score": 0.3976,
+      "investment_score": 0.3017,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -4458,8 +4550,8 @@
       "source_count": 2,
       "latest_at": "2026-06-09T11:15:19.256794Z",
       "earliest_at": "2026-06-09T07:49:47.617244Z",
-      "ai_story_score": 0.4064,
-      "investment_score": 0.3047,
+      "ai_story_score": 0.3976,
+      "investment_score": 0.3017,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -4533,8 +4625,8 @@
       "source_count": 1,
       "latest_at": "2026-06-10T03:05:49.985000Z",
       "earliest_at": "2026-06-10T03:05:49.985000Z",
-      "ai_story_score": 0.5134,
-      "investment_score": 0.3047,
+      "ai_story_score": 0.5046,
+      "investment_score": 0.3016,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -4599,8 +4691,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T16:35:08Z",
       "earliest_at": "2026-06-09T16:35:08Z",
-      "ai_story_score": 0.5128,
-      "investment_score": 0.3045,
+      "ai_story_score": 0.5041,
+      "investment_score": 0.3014,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -4665,8 +4757,8 @@
       "source_count": 1,
       "latest_at": "2026-06-10T02:53:01Z",
       "earliest_at": "2026-06-10T02:53:01Z",
-      "ai_story_score": 0.5116,
-      "investment_score": 0.3041,
+      "ai_story_score": 0.5029,
+      "investment_score": 0.301,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -4731,8 +4823,8 @@
       "source_count": 1,
       "latest_at": "2026-06-10T02:49:50.289000Z",
       "earliest_at": "2026-06-10T02:49:50.289000Z",
-      "ai_story_score": 0.5111,
-      "investment_score": 0.3039,
+      "ai_story_score": 0.5024,
+      "investment_score": 0.3008,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -4797,8 +4889,8 @@
       "source_count": 1,
       "latest_at": "2026-06-10T02:46:28Z",
       "earliest_at": "2026-06-10T02:46:28Z",
-      "ai_story_score": 0.5107,
-      "investment_score": 0.3037,
+      "ai_story_score": 0.502,
+      "investment_score": 0.3007,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -4863,8 +4955,8 @@
       "source_count": 1,
       "latest_at": "2026-06-10T01:55:09Z",
       "earliest_at": "2026-06-10T01:55:09Z",
-      "ai_story_score": 0.5036,
-      "investment_score": 0.3013,
+      "ai_story_score": 0.4948,
+      "investment_score": 0.2982,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -4929,8 +5021,8 @@
       "source_count": 1,
       "latest_at": "2026-06-10T01:33:27Z",
       "earliest_at": "2026-06-10T01:33:27Z",
-      "ai_story_score": 0.5005,
-      "investment_score": 0.3002,
+      "ai_story_score": 0.4918,
+      "investment_score": 0.2971,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -4995,8 +5087,8 @@
       "source_count": 1,
       "latest_at": "2026-06-10T00:56:56Z",
       "earliest_at": "2026-06-10T00:56:56Z",
-      "ai_story_score": 0.4955,
-      "investment_score": 0.2984,
+      "ai_story_score": 0.4867,
+      "investment_score": 0.2953,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -5061,8 +5153,8 @@
       "source_count": 1,
       "latest_at": "2026-06-10T00:42:01.462000Z",
       "earliest_at": "2026-06-10T00:42:01.462000Z",
-      "ai_story_score": 0.4934,
-      "investment_score": 0.2977,
+      "ai_story_score": 0.4847,
+      "investment_score": 0.2946,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -5127,8 +5219,8 @@
       "source_count": 1,
       "latest_at": "2026-06-10T00:42:01.589000Z",
       "earliest_at": "2026-06-10T00:42:01.589000Z",
-      "ai_story_score": 0.4934,
-      "investment_score": 0.2977,
+      "ai_story_score": 0.4847,
+      "investment_score": 0.2946,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -5195,8 +5287,8 @@
       "source_count": 1,
       "latest_at": "2026-06-10T00:19:51.943187Z",
       "earliest_at": "2026-06-10T00:19:51.943187Z",
-      "ai_story_score": 0.4903,
-      "investment_score": 0.2966,
+      "ai_story_score": 0.4816,
+      "investment_score": 0.2936,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -5261,8 +5353,8 @@
       "source_count": 1,
       "latest_at": "2026-06-10T00:19:51.943187Z",
       "earliest_at": "2026-06-10T00:19:51.943187Z",
-      "ai_story_score": 0.4903,
-      "investment_score": 0.2966,
+      "ai_story_score": 0.4816,
+      "investment_score": 0.2936,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -5329,8 +5421,8 @@
       "source_count": 1,
       "latest_at": "2026-06-10T00:19:51.943187Z",
       "earliest_at": "2026-06-10T00:19:51.943187Z",
-      "ai_story_score": 0.4903,
-      "investment_score": 0.2966,
+      "ai_story_score": 0.4816,
+      "investment_score": 0.2936,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -5395,8 +5487,8 @@
       "source_count": 1,
       "latest_at": "2026-06-10T00:12:56Z",
       "earliest_at": "2026-06-10T00:12:56Z",
-      "ai_story_score": 0.4894,
-      "investment_score": 0.2963,
+      "ai_story_score": 0.4806,
+      "investment_score": 0.2932,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -5461,8 +5553,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T23:37:57.479000Z",
       "earliest_at": "2026-06-09T23:37:57.479000Z",
-      "ai_story_score": 0.4845,
-      "investment_score": 0.2946,
+      "ai_story_score": 0.4758,
+      "investment_score": 0.2915,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -5527,8 +5619,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T22:55:02Z",
       "earliest_at": "2026-06-09T22:55:02Z",
-      "ai_story_score": 0.4785,
-      "investment_score": 0.2925,
+      "ai_story_score": 0.4698,
+      "investment_score": 0.2894,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -5585,6 +5677,72 @@
       ]
     },
     {
+      "story_id": "story_cb357f3cb5bd",
+      "title": "消息称三星电子计划在韩国光州新建先进半导体封装工厂，强化 AI 芯片产业链布局",
+      "url": "https://www.ithome.com/0/962/153.htm",
+      "source": "IT之家 (ITHome)",
+      "source_name": "Info Flow",
+      "source_count": 1,
+      "latest_at": "2026-06-09T22:51:40Z",
+      "earliest_at": "2026-06-09T22:51:40Z",
+      "ai_story_score": 0.4693,
+      "investment_score": 0.2893,
+      "investment_domain": "ai_catalyst",
+      "investment_role": "demand_side_catalyst",
+      "evidence_level": "L0",
+      "tracks": [
+        {
+          "id": "memory_packaging",
+          "label": "存储与先进封装",
+          "matched_keywords": [
+            "封装"
+          ],
+          "chain_nodes": [
+            "HBM",
+            "DRAM",
+            "先进封装",
+            "Chiplet"
+          ],
+          "a_share_themes": [
+            "存储芯片",
+            "先进封装",
+            "半导体"
+          ]
+        }
+      ],
+      "chain_nodes": [
+        "HBM",
+        "DRAM",
+        "先进封装",
+        "Chiplet"
+      ],
+      "a_share_themes": [
+        "存储芯片",
+        "先进封装",
+        "半导体"
+      ],
+      "validation_needed": [
+        "是否有官方公告、订单、资本开支或财务数据验证",
+        "是否能映射到具体产业链节点和上市公司主营业务",
+        "是否已经在板块涨跌幅、成交量或资金流中反映",
+        "是否只是概念热度而缺少业绩兑现路径"
+      ],
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "sources": [
+        {
+          "id": "235554f3036c758c8885673c1db80c820ac54f62",
+          "title": "消息称三星电子计划在韩国光州新建先进半导体封装工厂，强化 AI 芯片产业链布局",
+          "url": "https://www.ithome.com/0/962/153.htm",
+          "source": "IT之家 (ITHome)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-09T22:51:40Z"
+        }
+      ]
+    },
+    {
       "story_id": "story_a03d099d242e",
       "title": "据报道，爱彼迎（Airbnb）首席执行官布莱恩·切斯基正在创办一家人工智能初创公司——但这并非又一个聊天机器人",
       "url": "https://finance.yahoo.com/sectors/technology/articles/airbnb-ceo-brian-chesky-building-143104169.html",
@@ -5593,8 +5751,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T22:50:13.666000Z",
       "earliest_at": "2026-06-09T22:50:13.666000Z",
-      "ai_story_score": 0.4779,
-      "investment_score": 0.2923,
+      "ai_story_score": 0.4691,
+      "investment_score": 0.2892,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -5653,49 +5811,50 @@
       ]
     },
     {
-      "story_id": "story_cb357f3cb5bd",
-      "title": "消息称三星电子计划在韩国光州新建先进半导体封装工厂，强化 AI 芯片产业链布局",
-      "url": "https://www.ithome.com/0/962/153.htm",
-      "source": "IT之家 (ITHome)",
-      "source_name": "Info Flow",
+      "story_id": "story_3acb581bc868",
+      "title": "别再裸用 Claude Code 了：我常驻的 6 个 MCP + 4 条提效工作流（亲测）",
+      "url": "https://juejin.cn/post/7648152309277933608",
+      "source": "掘金 · 人工智能本周最热",
+      "source_name": "TopHub",
       "source_count": 1,
-      "latest_at": "2026-06-09T22:51:40Z",
-      "earliest_at": "2026-06-09T22:51:40Z",
-      "ai_story_score": 0.4781,
-      "investment_score": 0.2923,
+      "latest_at": "2026-06-09T13:58:57.483870Z",
+      "earliest_at": "2026-06-09T13:58:57.483870Z",
+      "ai_story_score": 0.3954,
+      "investment_score": 0.2884,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
       "tracks": [
         {
-          "id": "memory_packaging",
-          "label": "存储与先进封装",
+          "id": "ai_application",
+          "label": "AI应用与内容工具",
           "matched_keywords": [
-            "封装"
+            "mcp",
+            "工作流"
           ],
           "chain_nodes": [
-            "HBM",
-            "DRAM",
-            "先进封装",
-            "Chiplet"
+            "AI应用软件",
+            "内容生成",
+            "游戏工具链",
+            "企业服务"
           ],
           "a_share_themes": [
-            "存储芯片",
-            "先进封装",
-            "半导体"
+            "AI应用",
+            "传媒游戏",
+            "软件服务"
           ]
         }
       ],
       "chain_nodes": [
-        "HBM",
-        "DRAM",
-        "先进封装",
-        "Chiplet"
+        "AI应用软件",
+        "内容生成",
+        "游戏工具链",
+        "企业服务"
       ],
       "a_share_themes": [
-        "存储芯片",
-        "先进封装",
-        "半导体"
+        "AI应用",
+        "传媒游戏",
+        "软件服务"
       ],
       "validation_needed": [
         "是否有官方公告、订单、资本开支或财务数据验证",
@@ -5708,13 +5867,13 @@
       ],
       "sources": [
         {
-          "id": "235554f3036c758c8885673c1db80c820ac54f62",
-          "title": "消息称三星电子计划在韩国光州新建先进半导体封装工厂，强化 AI 芯片产业链布局",
-          "url": "https://www.ithome.com/0/962/153.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-09T22:51:40Z"
+          "id": "4263f5f708e80561c1e5603934a79fb01acd5d23",
+          "title": "别再裸用 Claude Code 了：我常驻的 6 个 MCP + 4 条提效工作流（亲测）",
+          "url": "https://juejin.cn/post/7648152309277933608",
+          "source": "掘金 · 人工智能本周最热",
+          "source_name": "TopHub",
+          "site_id": "tophub",
+          "published_at": null
         }
       ]
     },
@@ -5727,8 +5886,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T22:33:51.742000Z",
       "earliest_at": "2026-06-09T22:33:51.742000Z",
-      "ai_story_score": 0.4756,
-      "investment_score": 0.2915,
+      "ai_story_score": 0.4669,
+      "investment_score": 0.2884,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -5787,73 +5946,6 @@
       ]
     },
     {
-      "story_id": "story_3acb581bc868",
-      "title": "别再裸用 Claude Code 了：我常驻的 6 个 MCP + 4 条提效工作流（亲测）",
-      "url": "https://juejin.cn/post/7648152309277933608",
-      "source": "掘金 · 人工智能本周最热",
-      "source_name": "TopHub",
-      "source_count": 1,
-      "latest_at": "2026-06-09T13:58:57.483870Z",
-      "earliest_at": "2026-06-09T13:58:57.483870Z",
-      "ai_story_score": 0.4041,
-      "investment_score": 0.2914,
-      "investment_domain": "ai_catalyst",
-      "investment_role": "demand_side_catalyst",
-      "evidence_level": "L0",
-      "tracks": [
-        {
-          "id": "ai_application",
-          "label": "AI应用与内容工具",
-          "matched_keywords": [
-            "mcp",
-            "工作流"
-          ],
-          "chain_nodes": [
-            "AI应用软件",
-            "内容生成",
-            "游戏工具链",
-            "企业服务"
-          ],
-          "a_share_themes": [
-            "AI应用",
-            "传媒游戏",
-            "软件服务"
-          ]
-        }
-      ],
-      "chain_nodes": [
-        "AI应用软件",
-        "内容生成",
-        "游戏工具链",
-        "企业服务"
-      ],
-      "a_share_themes": [
-        "AI应用",
-        "传媒游戏",
-        "软件服务"
-      ],
-      "validation_needed": [
-        "是否有官方公告、订单、资本开支或财务数据验证",
-        "是否能映射到具体产业链节点和上市公司主营业务",
-        "是否已经在板块涨跌幅、成交量或资金流中反映",
-        "是否只是概念热度而缺少业绩兑现路径"
-      ],
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "sources": [
-        {
-          "id": "4263f5f708e80561c1e5603934a79fb01acd5d23",
-          "title": "别再裸用 Claude Code 了：我常驻的 6 个 MCP + 4 条提效工作流（亲测）",
-          "url": "https://juejin.cn/post/7648152309277933608",
-          "source": "掘金 · 人工智能本周最热",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ]
-    },
-    {
       "story_id": "story_5c5e82fd6231",
       "title": "超微计算机计划通过股票发行筹集70亿美元，以满足人工智能服务器的需求",
       "url": "https://www.reuters.com/legal/transactional/super-micro-computer-plans-raise-7-billion-equity-offerings-2026-06-09",
@@ -5862,8 +5954,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T22:18:10.917000Z",
       "earliest_at": "2026-06-09T22:18:10.917000Z",
-      "ai_story_score": 0.4734,
-      "investment_score": 0.2907,
+      "ai_story_score": 0.4647,
+      "investment_score": 0.2876,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -5928,8 +6020,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T21:28:24Z",
       "earliest_at": "2026-06-09T21:28:24Z",
-      "ai_story_score": 0.4665,
-      "investment_score": 0.2883,
+      "ai_story_score": 0.4578,
+      "investment_score": 0.2852,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -5994,8 +6086,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T21:17:38.980319Z",
       "earliest_at": "2026-06-09T21:17:38.980319Z",
-      "ai_story_score": 0.465,
-      "investment_score": 0.2878,
+      "ai_story_score": 0.4563,
+      "investment_score": 0.2847,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -6060,8 +6152,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T21:13:58.035000Z",
       "earliest_at": "2026-06-09T21:13:58.035000Z",
-      "ai_story_score": 0.4645,
-      "investment_score": 0.2876,
+      "ai_story_score": 0.4558,
+      "investment_score": 0.2845,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -6128,8 +6220,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T21:00:00Z",
       "earliest_at": "2026-06-09T21:00:00Z",
-      "ai_story_score": 0.4626,
-      "investment_score": 0.2869,
+      "ai_story_score": 0.4538,
+      "investment_score": 0.2838,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -6194,8 +6286,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T20:50:01Z",
       "earliest_at": "2026-06-09T20:50:01Z",
-      "ai_story_score": 0.4612,
-      "investment_score": 0.2864,
+      "ai_story_score": 0.4525,
+      "investment_score": 0.2834,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -6262,8 +6354,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T20:26:01.415000Z",
       "earliest_at": "2026-06-09T20:26:01.415000Z",
-      "ai_story_score": 0.4578,
-      "investment_score": 0.2852,
+      "ai_story_score": 0.4491,
+      "investment_score": 0.2822,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -6330,8 +6422,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T20:10:05.586000Z",
       "earliest_at": "2026-06-09T20:10:05.586000Z",
-      "ai_story_score": 0.4556,
-      "investment_score": 0.2845,
+      "ai_story_score": 0.4469,
+      "investment_score": 0.2814,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -6396,8 +6488,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T11:32:34Z",
       "earliest_at": "2026-06-09T11:32:34Z",
-      "ai_story_score": 0.3837,
-      "investment_score": 0.2843,
+      "ai_story_score": 0.375,
+      "investment_score": 0.2812,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -6465,8 +6557,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T10:00:00Z",
       "earliest_at": "2026-06-09T10:00:00Z",
-      "ai_story_score": 0.4489,
-      "investment_score": 0.2821,
+      "ai_story_score": 0.4402,
+      "investment_score": 0.2791,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -6531,8 +6623,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T19:05:08Z",
       "earliest_at": "2026-06-09T19:05:08Z",
-      "ai_story_score": 0.4466,
-      "investment_score": 0.2813,
+      "ai_story_score": 0.4379,
+      "investment_score": 0.2783,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -6599,8 +6691,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T18:50:26.681000Z",
       "earliest_at": "2026-06-09T18:50:26.681000Z",
-      "ai_story_score": 0.4446,
-      "investment_score": 0.2806,
+      "ai_story_score": 0.4358,
+      "investment_score": 0.2775,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -6667,8 +6759,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T10:00:03Z",
       "earliest_at": "2026-06-09T10:00:03Z",
-      "ai_story_score": 0.3709,
-      "investment_score": 0.2798,
+      "ai_story_score": 0.3622,
+      "investment_score": 0.2768,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -6736,8 +6828,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T09:46:23Z",
       "earliest_at": "2026-06-09T09:46:23Z",
-      "ai_story_score": 0.369,
-      "investment_score": 0.2791,
+      "ai_story_score": 0.3603,
+      "investment_score": 0.2761,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -6805,8 +6897,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T09:10:05Z",
       "earliest_at": "2026-06-09T09:10:05Z",
-      "ai_story_score": 0.364,
-      "investment_score": 0.2774,
+      "ai_story_score": 0.3552,
+      "investment_score": 0.2743,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -6872,8 +6964,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T16:59:34Z",
       "earliest_at": "2026-06-09T16:59:34Z",
-      "ai_story_score": 0.4292,
-      "investment_score": 0.2752,
+      "ai_story_score": 0.4204,
+      "investment_score": 0.2721,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -6938,8 +7030,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T16:59:36.392000Z",
       "earliest_at": "2026-06-09T16:59:36.392000Z",
-      "ai_story_score": 0.4292,
-      "investment_score": 0.2752,
+      "ai_story_score": 0.4204,
+      "investment_score": 0.2721,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -7006,8 +7098,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T08:21:10Z",
       "earliest_at": "2026-06-09T08:21:10Z",
-      "ai_story_score": 0.3572,
-      "investment_score": 0.275,
+      "ai_story_score": 0.3484,
+      "investment_score": 0.2719,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -7073,8 +7165,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T16:55:04Z",
       "earliest_at": "2026-06-09T16:55:04Z",
-      "ai_story_score": 0.4285,
-      "investment_score": 0.275,
+      "ai_story_score": 0.4198,
+      "investment_score": 0.2719,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -7139,8 +7231,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T16:49:44Z",
       "earliest_at": "2026-06-09T16:49:44Z",
-      "ai_story_score": 0.4278,
-      "investment_score": 0.2747,
+      "ai_story_score": 0.4191,
+      "investment_score": 0.2717,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -7205,8 +7297,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T16:35:18.151159Z",
       "earliest_at": "2026-06-09T16:35:18.151159Z",
-      "ai_story_score": 0.4258,
-      "investment_score": 0.274,
+      "ai_story_score": 0.4171,
+      "investment_score": 0.271,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -7271,8 +7363,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T16:13:33.448000Z",
       "earliest_at": "2026-06-09T16:13:33.448000Z",
-      "ai_story_score": 0.4228,
-      "investment_score": 0.273,
+      "ai_story_score": 0.4141,
+      "investment_score": 0.2699,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -7337,8 +7429,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T16:13:33.835000Z",
       "earliest_at": "2026-06-09T16:13:33.835000Z",
-      "ai_story_score": 0.4228,
-      "investment_score": 0.273,
+      "ai_story_score": 0.4141,
+      "investment_score": 0.2699,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -7405,8 +7497,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T16:13:33.967000Z",
       "earliest_at": "2026-06-09T16:13:33.967000Z",
-      "ai_story_score": 0.4228,
-      "investment_score": 0.273,
+      "ai_story_score": 0.4141,
+      "investment_score": 0.2699,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -7473,8 +7565,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T16:05:33Z",
       "earliest_at": "2026-06-09T16:05:33Z",
-      "ai_story_score": 0.4217,
-      "investment_score": 0.2726,
+      "ai_story_score": 0.4129,
+      "investment_score": 0.2695,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -7539,8 +7631,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T16:00:00Z",
       "earliest_at": "2026-06-09T16:00:00Z",
-      "ai_story_score": 0.4209,
-      "investment_score": 0.2723,
+      "ai_story_score": 0.4122,
+      "investment_score": 0.2693,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -7605,8 +7697,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T15:42:24.634000Z",
       "earliest_at": "2026-06-09T15:42:24.634000Z",
-      "ai_story_score": 0.4184,
-      "investment_score": 0.2714,
+      "ai_story_score": 0.4097,
+      "investment_score": 0.2684,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -7673,8 +7765,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T15:35:00Z",
       "earliest_at": "2026-06-09T15:35:00Z",
-      "ai_story_score": 0.4174,
-      "investment_score": 0.2711,
+      "ai_story_score": 0.4087,
+      "investment_score": 0.268,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -7741,8 +7833,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T15:12:30Z",
       "earliest_at": "2026-06-09T15:12:30Z",
-      "ai_story_score": 0.4143,
-      "investment_score": 0.27,
+      "ai_story_score": 0.4056,
+      "investment_score": 0.267,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -7807,8 +7899,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T15:10:41.959000Z",
       "earliest_at": "2026-06-09T15:10:41.959000Z",
-      "ai_story_score": 0.414,
-      "investment_score": 0.2699,
+      "ai_story_score": 0.4053,
+      "investment_score": 0.2669,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -7873,8 +7965,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T14:02:37Z",
       "earliest_at": "2026-06-09T14:02:37Z",
-      "ai_story_score": 0.4046,
-      "investment_score": 0.2666,
+      "ai_story_score": 0.3959,
+      "investment_score": 0.2636,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -7939,8 +8031,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T13:58:57.483870Z",
       "earliest_at": "2026-06-09T13:58:57.483870Z",
-      "ai_story_score": 0.4041,
-      "investment_score": 0.2664,
+      "ai_story_score": 0.3954,
+      "investment_score": 0.2634,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -8005,8 +8097,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T13:58:57.483870Z",
       "earliest_at": "2026-06-09T13:58:57.483870Z",
-      "ai_story_score": 0.4041,
-      "investment_score": 0.2664,
+      "ai_story_score": 0.3954,
+      "investment_score": 0.2634,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -8063,6 +8155,72 @@
       ]
     },
     {
+      "story_id": "story_0d1ce8a78de3",
+      "title": "苹果最好的人工智能想法看起来很像氛围编码 / Apple’s best AI idea looks a lot like vibe coding",
+      "url": "https://www.theverge.com/tech/946733/apple-shortcuts-ai-safari-tabs-vibe-code",
+      "source": "The Verge",
+      "source_name": "TechURLs",
+      "source_count": 1,
+      "latest_at": "2026-06-09T13:34:48Z",
+      "earliest_at": "2026-06-09T13:34:48Z",
+      "ai_story_score": 0.392,
+      "investment_score": 0.2622,
+      "investment_domain": "ai_catalyst",
+      "investment_role": "demand_side_catalyst",
+      "evidence_level": "L0",
+      "tracks": [
+        {
+          "id": "ai_application",
+          "label": "AI应用与内容工具",
+          "matched_keywords": [
+            "coding"
+          ],
+          "chain_nodes": [
+            "AI应用软件",
+            "内容生成",
+            "游戏工具链",
+            "企业服务"
+          ],
+          "a_share_themes": [
+            "AI应用",
+            "传媒游戏",
+            "软件服务"
+          ]
+        }
+      ],
+      "chain_nodes": [
+        "AI应用软件",
+        "内容生成",
+        "游戏工具链",
+        "企业服务"
+      ],
+      "a_share_themes": [
+        "AI应用",
+        "传媒游戏",
+        "软件服务"
+      ],
+      "validation_needed": [
+        "是否有官方公告、订单、资本开支或财务数据验证",
+        "是否能映射到具体产业链节点和上市公司主营业务",
+        "是否已经在板块涨跌幅、成交量或资金流中反映",
+        "是否只是概念热度而缺少业绩兑现路径"
+      ],
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "sources": [
+        {
+          "id": "34b0254ab53ce2fccf33550cf15b4064551990df",
+          "title": "苹果最好的人工智能想法看起来很像氛围编码 / Apple’s best AI idea looks a lot like vibe coding",
+          "url": "https://www.theverge.com/tech/946733/apple-shortcuts-ai-safari-tabs-vibe-code",
+          "source": "The Verge",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-09T13:34:48Z"
+        }
+      ]
+    },
+    {
       "story_id": "story_d7760009c0e3",
       "title": "Show HN: JazzBench：一个基于爵士即兴演奏的大语言模型推理基准",
       "url": "https://flatnine.co/blog/i-built-my-own-eval",
@@ -8071,8 +8229,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T13:35:25.406000Z",
       "earliest_at": "2026-06-09T13:35:25.406000Z",
-      "ai_story_score": 0.4008,
-      "investment_score": 0.2653,
+      "ai_story_score": 0.3921,
+      "investment_score": 0.2622,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -8137,8 +8295,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T13:35:27.600000Z",
       "earliest_at": "2026-06-09T13:35:27.600000Z",
-      "ai_story_score": 0.4008,
-      "investment_score": 0.2653,
+      "ai_story_score": 0.3921,
+      "investment_score": 0.2622,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -8197,72 +8355,6 @@
       ]
     },
     {
-      "story_id": "story_0d1ce8a78de3",
-      "title": "苹果最好的人工智能想法看起来很像氛围编码 / Apple’s best AI idea looks a lot like vibe coding",
-      "url": "https://www.theverge.com/tech/946733/apple-shortcuts-ai-safari-tabs-vibe-code",
-      "source": "The Verge",
-      "source_name": "TechURLs",
-      "source_count": 1,
-      "latest_at": "2026-06-09T13:34:48Z",
-      "earliest_at": "2026-06-09T13:34:48Z",
-      "ai_story_score": 0.4007,
-      "investment_score": 0.2652,
-      "investment_domain": "ai_catalyst",
-      "investment_role": "demand_side_catalyst",
-      "evidence_level": "L0",
-      "tracks": [
-        {
-          "id": "ai_application",
-          "label": "AI应用与内容工具",
-          "matched_keywords": [
-            "coding"
-          ],
-          "chain_nodes": [
-            "AI应用软件",
-            "内容生成",
-            "游戏工具链",
-            "企业服务"
-          ],
-          "a_share_themes": [
-            "AI应用",
-            "传媒游戏",
-            "软件服务"
-          ]
-        }
-      ],
-      "chain_nodes": [
-        "AI应用软件",
-        "内容生成",
-        "游戏工具链",
-        "企业服务"
-      ],
-      "a_share_themes": [
-        "AI应用",
-        "传媒游戏",
-        "软件服务"
-      ],
-      "validation_needed": [
-        "是否有官方公告、订单、资本开支或财务数据验证",
-        "是否能映射到具体产业链节点和上市公司主营业务",
-        "是否已经在板块涨跌幅、成交量或资金流中反映",
-        "是否只是概念热度而缺少业绩兑现路径"
-      ],
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "sources": [
-        {
-          "id": "34b0254ab53ce2fccf33550cf15b4064551990df",
-          "title": "苹果最好的人工智能想法看起来很像氛围编码 / Apple’s best AI idea looks a lot like vibe coding",
-          "url": "https://www.theverge.com/tech/946733/apple-shortcuts-ai-safari-tabs-vibe-code",
-          "source": "The Verge",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-09T13:34:48Z"
-        }
-      ]
-    },
-    {
       "story_id": "story_a1b66dff9723",
       "title": "Grep 真的就够了吗？代理框架如何重塑基于代理的搜索 / Is Grep All You Need? How Agent Harnesses Reshape Agentic Search",
       "url": "https://arxiv.org/abs/2605.15184",
@@ -8271,8 +8363,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T13:27:03Z",
       "earliest_at": "2026-06-09T13:27:03Z",
-      "ai_story_score": 0.3996,
-      "investment_score": 0.2649,
+      "ai_story_score": 0.3909,
+      "investment_score": 0.2618,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -8337,8 +8429,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T12:20:33Z",
       "earliest_at": "2026-06-09T12:20:33Z",
-      "ai_story_score": 0.3904,
-      "investment_score": 0.2616,
+      "ai_story_score": 0.3817,
+      "investment_score": 0.2586,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -8403,8 +8495,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T11:30:53Z",
       "earliest_at": "2026-06-09T11:30:53Z",
-      "ai_story_score": 0.3835,
-      "investment_score": 0.2592,
+      "ai_story_score": 0.3748,
+      "investment_score": 0.2562,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -8469,8 +8561,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T11:15:19.256794Z",
       "earliest_at": "2026-06-09T11:15:19.256794Z",
-      "ai_story_score": 0.3814,
-      "investment_score": 0.2585,
+      "ai_story_score": 0.3726,
+      "investment_score": 0.2554,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -8535,8 +8627,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T11:15:19.256794Z",
       "earliest_at": "2026-06-09T11:15:19.256794Z",
-      "ai_story_score": 0.3814,
-      "investment_score": 0.2585,
+      "ai_story_score": 0.3726,
+      "investment_score": 0.2554,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -8601,8 +8693,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T11:15:19.256794Z",
       "earliest_at": "2026-06-09T11:15:19.256794Z",
-      "ai_story_score": 0.3814,
-      "investment_score": 0.2585,
+      "ai_story_score": 0.3726,
+      "investment_score": 0.2554,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -8667,8 +8759,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T10:42:25.501000Z",
       "earliest_at": "2026-06-09T10:42:25.501000Z",
-      "ai_story_score": 0.3768,
-      "investment_score": 0.2569,
+      "ai_story_score": 0.3681,
+      "investment_score": 0.2538,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -8733,8 +8825,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T10:42:28.848000Z",
       "earliest_at": "2026-06-09T10:42:28.848000Z",
-      "ai_story_score": 0.3768,
-      "investment_score": 0.2569,
+      "ai_story_score": 0.3681,
+      "investment_score": 0.2538,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -8801,8 +8893,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T10:36:21Z",
       "earliest_at": "2026-06-09T10:36:21Z",
-      "ai_story_score": 0.3759,
-      "investment_score": 0.2566,
+      "ai_story_score": 0.3672,
+      "investment_score": 0.2535,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -8867,8 +8959,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T09:55:01Z",
       "earliest_at": "2026-06-09T09:55:01Z",
-      "ai_story_score": 0.3702,
-      "investment_score": 0.2546,
+      "ai_story_score": 0.3615,
+      "investment_score": 0.2515,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -8933,8 +9025,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T09:40:34Z",
       "earliest_at": "2026-06-09T09:40:34Z",
-      "ai_story_score": 0.3682,
-      "investment_score": 0.2539,
+      "ai_story_score": 0.3595,
+      "investment_score": 0.2508,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -8999,8 +9091,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T09:37:25Z",
       "earliest_at": "2026-06-09T09:37:25Z",
-      "ai_story_score": 0.3678,
-      "investment_score": 0.2537,
+      "ai_story_score": 0.359,
+      "investment_score": 0.2506,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -9065,8 +9157,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T09:20:10Z",
       "earliest_at": "2026-06-09T09:20:10Z",
-      "ai_story_score": 0.3654,
-      "investment_score": 0.2529,
+      "ai_story_score": 0.3566,
+      "investment_score": 0.2498,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -9131,8 +9223,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T09:00:00Z",
       "earliest_at": "2026-06-09T09:00:00Z",
-      "ai_story_score": 0.3626,
-      "investment_score": 0.2519,
+      "ai_story_score": 0.3538,
+      "investment_score": 0.2488,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -9197,8 +9289,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T09:00:03Z",
       "earliest_at": "2026-06-09T09:00:03Z",
-      "ai_story_score": 0.3626,
-      "investment_score": 0.2519,
+      "ai_story_score": 0.3538,
+      "investment_score": 0.2488,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -9263,8 +9355,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T07:49:47.617244Z",
       "earliest_at": "2026-06-09T07:49:47.617244Z",
-      "ai_story_score": 0.3528,
-      "investment_score": 0.2485,
+      "ai_story_score": 0.3441,
+      "investment_score": 0.2454,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -9329,8 +9421,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T07:22:45Z",
       "earliest_at": "2026-06-09T07:22:45Z",
-      "ai_story_score": 0.3491,
-      "investment_score": 0.2472,
+      "ai_story_score": 0.3403,
+      "investment_score": 0.2441,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -9395,8 +9487,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T07:17:16.739000Z",
       "earliest_at": "2026-06-09T07:17:16.739000Z",
-      "ai_story_score": 0.3483,
-      "investment_score": 0.2469,
+      "ai_story_score": 0.3396,
+      "investment_score": 0.2439,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -9461,8 +9553,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T07:17:16.743000Z",
       "earliest_at": "2026-06-09T07:17:16.743000Z",
-      "ai_story_score": 0.3483,
-      "investment_score": 0.2469,
+      "ai_story_score": 0.3396,
+      "investment_score": 0.2439,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -9519,72 +9611,6 @@
       ]
     },
     {
-      "story_id": "story_b8555b4627d0",
-      "title": "[程序员] Vibe Coding 不是软件工程？符合软件工程规范的 AI 软件工程平台来了。",
-      "url": "https://www.v2ex.com/t/1219067",
-      "source": "V2EX (创意工作者社区)",
-      "source_name": "Info Flow",
-      "source_count": 1,
-      "latest_at": "2026-06-09T06:35:55Z",
-      "earliest_at": "2026-06-09T06:35:55Z",
-      "ai_story_score": 0.3425,
-      "investment_score": 0.2449,
-      "investment_domain": "ai_catalyst",
-      "investment_role": "demand_side_catalyst",
-      "evidence_level": "L0",
-      "tracks": [
-        {
-          "id": "ai_application",
-          "label": "AI应用与内容工具",
-          "matched_keywords": [
-            "coding"
-          ],
-          "chain_nodes": [
-            "AI应用软件",
-            "内容生成",
-            "游戏工具链",
-            "企业服务"
-          ],
-          "a_share_themes": [
-            "AI应用",
-            "传媒游戏",
-            "软件服务"
-          ]
-        }
-      ],
-      "chain_nodes": [
-        "AI应用软件",
-        "内容生成",
-        "游戏工具链",
-        "企业服务"
-      ],
-      "a_share_themes": [
-        "AI应用",
-        "传媒游戏",
-        "软件服务"
-      ],
-      "validation_needed": [
-        "是否有官方公告、订单、资本开支或财务数据验证",
-        "是否能映射到具体产业链节点和上市公司主营业务",
-        "是否已经在板块涨跌幅、成交量或资金流中反映",
-        "是否只是概念热度而缺少业绩兑现路径"
-      ],
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "sources": [
-        {
-          "id": "8781ee3db7c3b6e6a8dc10c935545cafcf2a1b86",
-          "title": "[程序员] Vibe Coding 不是软件工程？符合软件工程规范的 AI 软件工程平台来了。",
-          "url": "https://www.v2ex.com/t/1219067",
-          "source": "V2EX (创意工作者社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-09T06:35:55Z"
-        }
-      ]
-    },
-    {
       "story_id": "story_ef6d99af3da4",
       "title": "三星拟面部署人工智能，重塑工作流程和企业文化",
       "url": "https://36kr.com/newsflashes/3845568386910468?f=rss",
@@ -9593,8 +9619,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T06:34:27Z",
       "earliest_at": "2026-06-09T06:34:27Z",
-      "ai_story_score": 0.3423,
-      "investment_score": 0.2448,
+      "ai_story_score": 0.3336,
+      "investment_score": 0.2418,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -9659,8 +9685,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T06:34:57.327000Z",
       "earliest_at": "2026-06-09T06:34:57.327000Z",
-      "ai_story_score": 0.3424,
-      "investment_score": 0.2448,
+      "ai_story_score": 0.3337,
+      "investment_score": 0.2418,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -9717,6 +9743,72 @@
       ]
     },
     {
+      "story_id": "story_b8555b4627d0",
+      "title": "[程序员] Vibe Coding 不是软件工程？符合软件工程规范的 AI 软件工程平台来了。",
+      "url": "https://www.v2ex.com/t/1219067",
+      "source": "V2EX (创意工作者社区)",
+      "source_name": "Info Flow",
+      "source_count": 1,
+      "latest_at": "2026-06-09T06:35:55Z",
+      "earliest_at": "2026-06-09T06:35:55Z",
+      "ai_story_score": 0.3338,
+      "investment_score": 0.2418,
+      "investment_domain": "ai_catalyst",
+      "investment_role": "demand_side_catalyst",
+      "evidence_level": "L0",
+      "tracks": [
+        {
+          "id": "ai_application",
+          "label": "AI应用与内容工具",
+          "matched_keywords": [
+            "coding"
+          ],
+          "chain_nodes": [
+            "AI应用软件",
+            "内容生成",
+            "游戏工具链",
+            "企业服务"
+          ],
+          "a_share_themes": [
+            "AI应用",
+            "传媒游戏",
+            "软件服务"
+          ]
+        }
+      ],
+      "chain_nodes": [
+        "AI应用软件",
+        "内容生成",
+        "游戏工具链",
+        "企业服务"
+      ],
+      "a_share_themes": [
+        "AI应用",
+        "传媒游戏",
+        "软件服务"
+      ],
+      "validation_needed": [
+        "是否有官方公告、订单、资本开支或财务数据验证",
+        "是否能映射到具体产业链节点和上市公司主营业务",
+        "是否已经在板块涨跌幅、成交量或资金流中反映",
+        "是否只是概念热度而缺少业绩兑现路径"
+      ],
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "sources": [
+        {
+          "id": "8781ee3db7c3b6e6a8dc10c935545cafcf2a1b86",
+          "title": "[程序员] Vibe Coding 不是软件工程？符合软件工程规范的 AI 软件工程平台来了。",
+          "url": "https://www.v2ex.com/t/1219067",
+          "source": "V2EX (创意工作者社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-09T06:35:55Z"
+        }
+      ]
+    },
+    {
       "story_id": "story_5ee8e19d9066",
       "title": "[分享创造] 做了一个 AI 图像生成器",
       "url": "https://www.v2ex.com/t/1219049",
@@ -9725,8 +9817,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T05:52:47Z",
       "earliest_at": "2026-06-09T05:52:47Z",
-      "ai_story_score": 0.3366,
-      "investment_score": 0.2428,
+      "ai_story_score": 0.3278,
+      "investment_score": 0.2397,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
@@ -9791,8 +9883,8 @@
       "source_count": 1,
       "latest_at": "2026-06-09T05:19:32Z",
       "earliest_at": "2026-06-09T05:19:32Z",
-      "ai_story_score": 0.3319,
-      "investment_score": 0.2412,
+      "ai_story_score": 0.3232,
+      "investment_score": 0.2381,
       "investment_domain": "ai_catalyst",
       "investment_role": "demand_side_catalyst",
       "evidence_level": "L0",
