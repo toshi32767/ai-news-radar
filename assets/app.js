@@ -18,6 +18,8 @@ const state = {
   sourceStatus: null,
   generatedAt: null,
   dailyBrief: null,
+  aiCatalystData: null,
+  aiCatalystTrackFilter: "",
 };
 
 const statsEl = document.getElementById("stats");
@@ -46,6 +48,9 @@ const waytoagi7dBtnEl = document.getElementById("waytoagi7dBtn");
 const coverageStripEl = document.getElementById("coverageStrip");
 const bolePicksListEl = document.getElementById("bolePicksList");
 const bolePicksMetaEl = document.getElementById("bolePicksMeta");
+const aiCatalystMetaEl = document.getElementById("aiCatalystMeta");
+const aiCatalystTracksEl = document.getElementById("aiCatalystTracks");
+const aiCatalystListEl = document.getElementById("aiCatalystList");
 
 const SOURCE_KINDS = {
   official_ai: { label: "官方", tone: "official" },
@@ -749,6 +754,170 @@ function renderBolePicks() {
   renderBoleFallback(picks);
 }
 
+function catalystScorePercent(item) {
+  const score = Number(item?.investment_score ?? 0);
+  if (!Number.isFinite(score) || score <= 0) return 0;
+  return Math.round(score <= 1 ? score * 100 : score);
+}
+
+function catalystTrackLabel(trackId) {
+  const labels = {
+    ai_application: "AI应用",
+    compute: "算力",
+    optical: "光通信",
+    components: "元器件",
+    memory_packaging: "存储封装",
+    cooling: "液冷温控",
+    robotics: "机器人",
+    edge_ai: "端侧AI",
+  };
+  return labels[trackId] || trackId || "未分类";
+}
+
+function catalystItems() {
+  const items = Array.isArray(state.aiCatalystData?.items) ? state.aiCatalystData.items : [];
+  if (!state.aiCatalystTrackFilter) return items;
+  return items.filter((item) => {
+    const tracks = Array.isArray(item.tracks) ? item.tracks : [];
+    return tracks.some((track) => track.id === state.aiCatalystTrackFilter);
+  });
+}
+
+function renderCatalystTrackFilters() {
+  if (!aiCatalystTracksEl) return;
+  aiCatalystTracksEl.innerHTML = "";
+  const counts = state.aiCatalystData?.track_counts || {};
+  const total = Number(state.aiCatalystData?.total_catalyst_stories || 0);
+  const entries = Object.entries(counts).sort((a, b) => Number(b[1] || 0) - Number(a[1] || 0) || a[0].localeCompare(b[0]));
+
+  const makeBtn = (trackId, label, count) => {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = `catalyst-track ${state.aiCatalystTrackFilter === trackId ? "active" : ""}`;
+    btn.dataset.trackId = trackId || "all";
+    btn.innerHTML = `<span>${label}</span><strong>${fmtNumber(count)}</strong>`;
+    btn.onclick = () => {
+      state.aiCatalystTrackFilter = trackId;
+      renderCatalystTrackFilters();
+      renderAiCatalystList();
+    };
+    return btn;
+  };
+
+  aiCatalystTracksEl.appendChild(makeBtn("", "全部", total));
+  entries.forEach(([trackId, count]) => {
+    aiCatalystTracksEl.appendChild(makeBtn(trackId, catalystTrackLabel(trackId), Number(count || 0)));
+  });
+}
+
+function buildCatalystCard(item, rank) {
+  const link = document.createElement("a");
+  link.className = "catalyst-card";
+  link.href = item.url || "#";
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
+  link.dataset.storyId = item.story_id || "";
+  link.dataset.evidenceLevel = item.evidence_level || "";
+  link.dataset.chainNodes = Array.isArray(item.chain_nodes) ? item.chain_nodes.join(",") : "";
+
+  const top = document.createElement("div");
+  top.className = "catalyst-card-top";
+  const rankEl = document.createElement("span");
+  rankEl.className = "catalyst-rank";
+  rankEl.textContent = `#${rank}`;
+  const evidence = document.createElement("span");
+  evidence.className = `catalyst-evidence ${(item.evidence_level || "").toLowerCase()}`;
+  evidence.textContent = item.evidence_level || "L0";
+  const source = document.createElement("span");
+  source.className = "catalyst-source";
+  source.textContent = item.source_name || item.source || "来源";
+  const score = catalystScorePercent(item);
+  const scoreEl = document.createElement("strong");
+  scoreEl.className = "catalyst-score";
+  scoreEl.innerHTML = `<span>${score}</span><small>分</small>`;
+  top.append(rankEl, evidence, source, scoreEl);
+
+  const title = document.createElement("div");
+  title.className = "catalyst-title";
+  title.textContent = item.title || "未命名催化";
+
+  const tracks = document.createElement("div");
+  tracks.className = "catalyst-chip-row";
+  (item.tracks || []).slice(0, 5).forEach((track) => {
+    const chip = document.createElement("span");
+    chip.className = "catalyst-chip track";
+    chip.dataset.trackId = track.id || "";
+    const keywords = Array.isArray(track.matched_keywords) && track.matched_keywords.length
+      ? ` · ${track.matched_keywords.slice(0, 3).join("/")}`
+      : "";
+    chip.textContent = `${track.label || catalystTrackLabel(track.id)}${keywords}`;
+    tracks.appendChild(chip);
+  });
+
+  const nodes = document.createElement("div");
+  nodes.className = "catalyst-chip-row";
+  (item.chain_nodes || []).slice(0, 8).forEach((nodeName) => {
+    const chip = document.createElement("span");
+    chip.className = "catalyst-chip node";
+    chip.textContent = nodeName;
+    nodes.appendChild(chip);
+  });
+
+  const themes = document.createElement("div");
+  themes.className = "catalyst-themes";
+  const themeList = Array.isArray(item.a_share_themes) ? item.a_share_themes.slice(0, 8) : [];
+  themes.textContent = themeList.length ? `A股主题：${themeList.join(" / ")}` : "A股主题：待映射";
+
+  const validation = document.createElement("div");
+  validation.className = "catalyst-validation";
+  const validationItems = Array.isArray(item.validation_needed) ? item.validation_needed.slice(0, 2) : [];
+  validation.textContent = validationItems.length ? `待验证：${validationItems.join("；")}` : "待验证：产业链和财务兑现路径";
+
+  link.append(top, title);
+  if (tracks.childElementCount) link.appendChild(tracks);
+  if (nodes.childElementCount) link.appendChild(nodes);
+  link.append(themes, validation);
+  return link;
+}
+
+function renderAiCatalystList() {
+  if (!aiCatalystListEl || !aiCatalystMetaEl) return;
+  aiCatalystListEl.innerHTML = "";
+  const items = catalystItems();
+
+  if (!state.aiCatalystData) {
+    aiCatalystMetaEl.textContent = "未加载";
+    const empty = document.createElement("div");
+    empty.className = "catalyst-empty";
+    empty.textContent = "AI产业催化数据未生成。";
+    aiCatalystListEl.appendChild(empty);
+    return;
+  }
+
+  const total = Number(state.aiCatalystData.total_catalyst_stories || 0);
+  const generatedAt = state.aiCatalystData.generated_at;
+  const filterText = state.aiCatalystTrackFilter ? ` · ${catalystTrackLabel(state.aiCatalystTrackFilter)} ${fmtNumber(items.length)} 条` : "";
+  aiCatalystMetaEl.textContent = `${fmtNumber(total)} 条映射${filterText} · ${fmtTime(generatedAt)}`;
+
+  if (!items.length) {
+    const empty = document.createElement("div");
+    empty.className = "catalyst-empty";
+    empty.textContent = "当前筛选下没有 AI 产业催化线索。";
+    aiCatalystListEl.appendChild(empty);
+    return;
+  }
+
+  items.slice(0, 24).forEach((item, index) => {
+    aiCatalystListEl.appendChild(buildCatalystCard(item, index + 1));
+  });
+  document.dispatchEvent(new CustomEvent("aiRadar:catalystRendered"));
+}
+
+function renderAiCatalyst() {
+  renderCatalystTrackFilters();
+  renderAiCatalystList();
+}
+
 function renderItemNode(item) {
   const node = itemTpl.content.firstElementChild.cloneNode(true);
   node.querySelector(".site").textContent = item.site_name;
@@ -1102,18 +1271,31 @@ async function loadDailyBriefData() {
   return res.json();
 }
 
+async function loadAiCatalystData() {
+  const res = await fetch(`./data/ai-catalyst-stories.json?t=${Date.now()}`);
+  if (!res.ok) throw new Error(`加载 ai-catalyst-stories.json 失败: ${res.status}`);
+  return res.json();
+}
+
 async function init() {
-  const [newsResult, waytoagiResult, statusResult, briefResult] = await Promise.allSettled([
+  const [newsResult, waytoagiResult, statusResult, briefResult, catalystResult] = await Promise.allSettled([
     loadNewsData(),
     loadWaytoagiData(),
     loadSourceStatusData(),
     loadDailyBriefData(),
+    loadAiCatalystData(),
   ]);
 
   if (briefResult.status === "fulfilled") {
     state.dailyBrief = briefResult.value;
   } else {
     state.dailyBrief = null;
+  }
+
+  if (catalystResult.status === "fulfilled") {
+    state.aiCatalystData = catalystResult.value;
+  } else {
+    state.aiCatalystData = null;
   }
 
   if (newsResult.status === "fulfilled") {
@@ -1133,6 +1315,7 @@ async function init() {
     renderModeSwitch();
     renderCoverageStrip();
     renderBolePicks();
+    renderAiCatalyst();
     renderSiteFilters();
     renderList();
     updatedAtEl.textContent = `更新时间：${fmtTime(state.generatedAt)}`;
@@ -1140,6 +1323,7 @@ async function init() {
     updatedAtEl.textContent = "新闻数据加载失败";
     newsListEl.innerHTML = `<div class="empty">${newsResult.reason.message}</div>`;
     renderCoverageStrip(newsResult.reason.message);
+    renderAiCatalyst();
   }
 
   if (statusResult.status === "fulfilled") {
