@@ -1,0 +1,14 @@
+{
+  "name": "ai-news-radar",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check:js": "node --check assets/app.js",
+    "verify:page": "node scripts/verify_page.mjs",
+    "verify:page:chrome": "PLAYWRIGHT_EXECUTABLE_PATH='/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' node scripts/verify_page.mjs",
+    "verify:publish": "python3 scripts/verify_static_publish.py"
+  },
+  "devDependencies": {
+    "playwright": "1.60.0"
+  }
+}

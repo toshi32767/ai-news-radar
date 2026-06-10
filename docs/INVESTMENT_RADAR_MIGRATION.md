@@ -136,6 +136,8 @@ Keep upstream behavior intact.
   `LearnPrompt/ai-news-radar`.
 - Run upstream tests and compile checks.
 - Do not rename the UI or rewrite fetchers yet.
+- Verify the static page with Playwright and verify published artifacts without
+  requiring the GitHub API.
 
 ### Phase 1: External Investment Adapter
 
@@ -199,6 +201,37 @@ Only after the JSON is useful, adapt the static page:
   of the repository.
 - Keep upstream sync simple until the investment data model has stabilized.
 - Prefer additive files and adapters before invasive rewrites.
+
+## Operational Verification
+
+GitHub API checks are useful for Actions and Pages status, but they should not be
+the only way to decide whether the radar is usable. When the API is slow or
+unavailable, verify the published static artifacts directly:
+
+```bash
+npm install
+npm run verify:publish
+```
+
+`verify:publish` checks GitHub Pages first, then falls back to
+`raw.githubusercontent.com`, then local files. Use `--require-pages` when the
+goal is to prove the public Pages site itself is live:
+
+```bash
+npm run verify:publish -- --require-pages
+```
+
+Use Playwright for real browser verification of the homepage module and MCP-ready
+DOM attributes:
+
+```bash
+python3 -m http.server 8080
+npm run verify:page
+```
+
+The Playwright script automatically uses a local Chrome/Chromium/Edge binary when
+one exists, so a flaky Playwright browser download should not block local page
+validation. If needed, set `PLAYWRIGHT_EXECUTABLE_PATH` explicitly.
 
 ## First Feasibility Criteria
 

@@ -18,6 +18,11 @@ __pycache__/
 .venv/
 venv/
 
+# Node / browser verification tooling
+node_modules/
+playwright-report/
+test-results/
+
 # Private source inputs
 feeds/follow.opml
 feeds/*.private.opml
