@@ -1,0 +1,182 @@
+{
+  "domain": "ai_catalyst",
+  "display_name": "AI产业催化",
+  "description": "Map AI News Radar stories into investment research clues for AI infrastructure, components, applications, and robotics.",
+  "default_evidence_level": "L0",
+  "investment_role": "demand_side_catalyst",
+  "tracks": [
+    {
+      "id": "compute",
+      "label": "算力基础设施",
+      "keywords": [
+        "gpu",
+        "nvidia",
+        "blackwell",
+        "cuda",
+        "training",
+        "inference",
+        "data center",
+        "datacenter",
+        "ai server",
+        "accelerator",
+        "asic",
+        "算力",
+        "智算",
+        "推理",
+        "训练",
+        "数据中心",
+        "服务器",
+        "英伟达"
+      ],
+      "chain_nodes": ["GPU", "AI服务器", "智算中心", "云计算"],
+      "a_share_themes": ["算力", "AI服务器", "数据中心"]
+    },
+    {
+      "id": "optical",
+      "label": "光通信与高速互联",
+      "keywords": [
+        "optical",
+        "optic",
+        "cpo",
+        "co-packaged",
+        "interconnect",
+        "networking",
+        "switch",
+        "ethernet",
+        "800g",
+        "1.6t",
+        "光模块",
+        "光通信",
+        "高速互联",
+        "交换机"
+      ],
+      "chain_nodes": ["光模块", "CPO", "交换机", "高速互联"],
+      "a_share_themes": ["CPO", "光模块", "算力网络"]
+    },
+    {
+      "id": "components",
+      "label": "元器件与硬件配套",
+      "keywords": [
+        "pcb",
+        "connector",
+        "power supply",
+        "vrm",
+        "server board",
+        "component",
+        "元器件",
+        "连接器",
+        "电源",
+        "pcb",
+        "电感",
+        "电容",
+        "服务器主板"
+      ],
+      "chain_nodes": ["PCB", "连接器", "电源", "被动元件"],
+      "a_share_themes": ["AI硬件", "服务器元器件", "高速PCB"]
+    },
+    {
+      "id": "memory_packaging",
+      "label": "存储与先进封装",
+      "keywords": [
+        "hbm",
+        "dram",
+        "memory bandwidth",
+        "advanced packaging",
+        "cowos",
+        "chiplet",
+        "存储",
+        "带宽",
+        "先进封装",
+        "封装",
+        "晶圆"
+      ],
+      "chain_nodes": ["HBM", "DRAM", "先进封装", "Chiplet"],
+      "a_share_themes": ["存储芯片", "先进封装", "半导体"]
+    },
+    {
+      "id": "cooling",
+      "label": "液冷与温控",
+      "keywords": [
+        "liquid cooling",
+        "cooling",
+        "thermal",
+        "heat dissipation",
+        "液冷",
+        "温控",
+        "散热",
+        "热管理"
+      ],
+      "chain_nodes": ["液冷", "温控设备", "热管理", "数据中心基础设施"],
+      "a_share_themes": ["液冷服务器", "数据中心温控", "热管理"]
+    },
+    {
+      "id": "robotics",
+      "label": "机器人与具身智能",
+      "keywords": [
+        "robot",
+        "robotics",
+        "embodied",
+        "autonomous",
+        "humanoid",
+        "机器人",
+        "具身智能",
+        "人形机器人",
+        "传感器",
+        "执行器",
+        "减速器",
+        "伺服"
+      ],
+      "chain_nodes": ["机器人本体", "传感器", "执行器", "减速器", "伺服电机"],
+      "a_share_themes": ["机器人", "具身智能", "工业自动化"]
+    },
+    {
+      "id": "ai_application",
+      "label": "AI应用与内容工具",
+      "keywords": [
+        "agent",
+        "coding",
+        "workflow",
+        "copilot",
+        "mcp",
+        "video generation",
+        "image generation",
+        "game asset",
+        "multimodal",
+        "智能体",
+        "代码生成",
+        "多模态",
+        "视频生成",
+        "图像生成",
+        "游戏资产",
+        "内容生成",
+        "工作流"
+      ],
+      "chain_nodes": ["AI应用软件", "内容生成", "游戏工具链", "企业服务"],
+      "a_share_themes": ["AI应用", "传媒游戏", "软件服务"]
+    },
+    {
+      "id": "edge_ai",
+      "label": "端侧AI",
+      "keywords": [
+        "edge ai",
+        "on-device",
+        "local model",
+        "mobile ai",
+        "ai pc",
+        "端侧",
+        "本地模型",
+        "端侧模型",
+        "ai pc",
+        "手机ai"
+      ],
+      "chain_nodes": ["端侧芯片", "AI PC", "手机链", "边缘计算"],
+      "a_share_themes": ["端侧AI", "消费电子", "AI PC"]
+    }
+  ],
+  "validation_needed": [
+    "是否有官方公告、订单、资本开支或财务数据验证",
+    "是否能映射到具体产业链节点和上市公司主营业务",
+    "是否已经在板块涨跌幅、成交量或资金流中反映",
+    "是否只是概念热度而缺少业绩兑现路径"
+  ]
+}
